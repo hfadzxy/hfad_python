@@ -1,4 +1,5 @@
 hello git
+hello manage
 
 
 
