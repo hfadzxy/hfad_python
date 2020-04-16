@@ -1,8 +1,4 @@
-hello git
-hello zs
-hello manager
-dev: 
-
+demo : django 工程学习  --待完成
 
 
 
