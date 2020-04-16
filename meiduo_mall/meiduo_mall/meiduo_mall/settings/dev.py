@@ -15,6 +15,7 @@ import os, sys
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname((os.path.abspath(__file__))))
 
+# 导入sys添加导包路径，join 拼接字符串， BASE_DIR 为内层meiduo_mall路径
 sys.path.insert(0, os.path.join(BASE_DIR, 'apps'))
 
 # Quick-start development settings - unsuitable for production
@@ -38,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    # 子应用配置在apps目录中， 默认导报路径无法找到，需要导入sys模块添加users路径
     'users',
 ]
 
@@ -56,6 +58,7 @@ ROOT_URLCONF = 'meiduo_mall.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
+        # 配置模板文件夹，导入templates绝对路径
         'DIRS': [os.path.join(BASE_DIR, 'templates')],
         'APP_DIRS': True,
         'OPTIONS': {
@@ -75,6 +78,7 @@ WSGI_APPLICATION = 'meiduo_mall.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
 
+# MySQL 数据库配置，meiduo_mall 需要新建， 一般不会是root权限， 需要新建用户名设置权限
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
@@ -124,6 +128,9 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_URL = '/static/'
+
+# redis 数据库配置
+
 CACHES = {
     "default": { # 默认存储信息: 存到 0 号库
         "BACKEND": "django_redis.cache.RedisCache",
@@ -143,6 +150,7 @@ CACHES = {
 SESSION_ENGINE = "django.contrib.sessions.backends.cache"
 SESSION_CACHE_ALIAS = "session"
 
+# 日志文档配置
 LOGGING = {
     'version': 1,
     'disable_existing_loggers': False,  # 是否禁用已经存在的日志器
@@ -184,5 +192,6 @@ LOGGING = {
     }
 }
 
-# 使用定义的模型类代替默认的模型类
+# 使用定义的模型类代替默认的模型类，原来的User模型类在site-packages/django/contrib/auth/models.py
+# 继承AbstractUser，因为没有手机号码，所以要在users子应用中重写模型类User, 并且修改默认设置
 AUTH_USER_MODEL = 'users.User'
