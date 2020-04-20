@@ -7,3 +7,153 @@ WARNING 2020-04-16 18:07:10,716 log 228 Not Found: /
 WARNING 2020-04-16 18:07:10,717 basehttp 154 "GET / HTTP/1.1" 404 2129
 WARNING 2020-04-16 18:07:10,803 log 228 Not Found: /favicon.ico
 WARNING 2020-04-16 18:07:10,804 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2180
+INFO 2020-04-16 18:54:43,369 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-16 19:24:19,987 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-16 19:24:57,690 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-16 19:28:16,412 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-16 19:29:00,031 autoreload 217 /home/ubuntu/Desktop/django/hfad_python/meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-04-16 19:29:00,873 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-16 19:56:55,069 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-16 19:57:45,896 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-16 20:01:34,272 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-16 20:09:29,115 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-16 20:16:43,111 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-16 20:21:36,258 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-16 20:24:27,597 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-16 20:27:42,578 autoreload 217 /home/ubuntu/Desktop/django/hfad_python/meiduo_mall/meiduo_mall/meiduo_mall/apps/users/models.py changed, reloading.
+INFO 2020-04-16 20:27:43,000 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-16 20:34:03,842 autoreload 217 /home/ubuntu/Desktop/django/hfad_python/meiduo_mall/meiduo_mall/meiduo_mall/apps/users/urls.py changed, reloading.
+INFO 2020-04-16 20:34:04,315 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-16 20:43:35,529 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-16 20:43:49,142 basehttp 154 "GET /usernames/sfdgrgh/count/ HTTP/1.1" 200 39
+WARNING 2020-04-16 20:43:59,659 log 228 Not Found: /carts/simple/
+WARNING 2020-04-16 20:43:59,666 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 2183
+WARNING 2020-04-16 20:44:01,577 log 228 Not Found: /image_codes/8a5c35d5-08d6-4743-9e6d-57d83b8f4859/
+WARNING 2020-04-16 20:44:01,579 basehttp 154 "GET /image_codes/8a5c35d5-08d6-4743-9e6d-57d83b8f4859/ HTTP/1.1" 404 2291
+INFO 2020-04-16 20:44:12,038 basehttp 154 "GET /usernames/jflwskdjf/count/ HTTP/1.1" 200 39
+INFO 2020-04-16 20:44:13,689 basehttp 154 "GET /usernames/jflwskdjf/count/ HTTP/1.1" 200 39
+INFO 2020-04-16 20:44:21,167 basehttp 154 "GET /usernames/jflwskdjf/count/ HTTP/1.1" 200 39
+INFO 2020-04-16 20:44:23,257 basehttp 154 "GET /usernames/jflwskdjf/count/ HTTP/1.1" 200 39
+INFO 2020-04-16 20:44:28,865 basehttp 154 "GET /usernames/jflwskdjf/count/ HTTP/1.1" 200 39
+INFO 2020-04-16 20:44:33,042 basehttp 154 "GET /usernames/jflwskdjf/count/ HTTP/1.1" 200 39
+INFO 2020-04-16 20:44:40,958 basehttp 154 "GET /usernames/jflwskdjf/count/ HTTP/1.1" 200 39
+INFO 2020-04-16 20:44:48,774 basehttp 154 "GET /usernames/jflwskdjf/count/ HTTP/1.1" 200 39
+WARNING 2020-04-16 20:44:56,545 log 228 Not Found: /image_codes/b9805de3-cb23-4f0a-b1c2-cdaabec64311/
+WARNING 2020-04-16 20:44:56,547 basehttp 154 "GET /image_codes/b9805de3-cb23-4f0a-b1c2-cdaabec64311/ HTTP/1.1" 404 2291
+WARNING 2020-04-16 20:44:58,447 log 228 Not Found: /image_codes/c7f45a9b-dca5-4eed-bb42-eb0dec4c0316/
+WARNING 2020-04-16 20:44:58,449 basehttp 154 "GET /image_codes/c7f45a9b-dca5-4eed-bb42-eb0dec4c0316/ HTTP/1.1" 404 2291
+WARNING 2020-04-16 20:45:00,425 log 228 Not Found: /image_codes/bd44dbf5-5ae9-4360-98ec-7ebcb44fe4a4/
+WARNING 2020-04-16 20:45:00,429 basehttp 154 "GET /image_codes/bd44dbf5-5ae9-4360-98ec-7ebcb44fe4a4/ HTTP/1.1" 404 2291
+INFO 2020-04-16 20:45:04,210 basehttp 154 "GET /usernames/regerryt/count/ HTTP/1.1" 200 39
+WARNING 2020-04-16 20:45:31,215 log 228 Not Found: /image_codes/ec90d94b-15aa-47aa-9043-e84c976ccad7/
+WARNING 2020-04-16 20:45:31,217 basehttp 154 "GET /image_codes/ec90d94b-15aa-47aa-9043-e84c976ccad7/ HTTP/1.1" 404 2291
+WARNING 2020-04-16 20:45:33,187 log 228 Not Found: /image_codes/c9f8b034-6f0a-463b-97ec-e3dbdf196987/
+WARNING 2020-04-16 20:45:33,191 basehttp 154 "GET /image_codes/c9f8b034-6f0a-463b-97ec-e3dbdf196987/ HTTP/1.1" 404 2291
+INFO 2020-04-16 20:45:39,193 basehttp 154 "GET /usernames/sdgwet/count/ HTTP/1.1" 200 39
+INFO 2020-04-16 20:46:41,061 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-16 20:47:35,032 basehttp 154 "GET /usernames/jolfiej/count/ HTTP/1.1" 200 39
+WARNING 2020-04-16 20:47:35,085 log 228 Not Found: /favicon.ico
+WARNING 2020-04-16 20:47:35,087 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2171
+INFO 2020-04-16 20:56:33,531 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-16 21:02:06,516 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-16 21:02:09,054 basehttp 154 "GET /mobiles/14111111111/count/ HTTP/1.1" 200 39
+INFO 2020-04-20 16:23:06,989 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-20 16:24:24,588 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-20 16:24:40,903 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-20 16:32:49,670 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-20 17:57:52,490 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-20 17:58:10,006 autoreload 217 /home/ubuntu/Desktop/django/hfad_python/meiduo_mall/meiduo_mall/meiduo_mall/apps/verifications/views.py changed, reloading.
+INFO 2020-04-20 17:58:10,427 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-20 17:58:21,484 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-20 17:58:32,560 autoreload 217 /home/ubuntu/Desktop/django/hfad_python/meiduo_mall/meiduo_mall/meiduo_mall/apps/verifications/views.py changed, reloading.
+INFO 2020-04-20 17:58:35,691 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-20 18:00:25,361 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-20 18:00:36,024 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-20 18:01:08,693 autoreload 217 /home/ubuntu/Desktop/django/hfad_python/meiduo_mall/meiduo_mall/meiduo_mall/apps/verifications/views.py changed, reloading.
+INFO 2020-04-20 18:01:10,898 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-20 18:05:07,217 autoreload 217 /home/ubuntu/Desktop/django/hfad_python/meiduo_mall/meiduo_mall/meiduo_mall/apps/verifications/views.py changed, reloading.
+INFO 2020-04-20 18:05:07,597 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-20 18:05:10,572 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-20 18:08:17,921 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-20 18:10:43,431 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-20 18:11:05,252 autoreload 217 /home/ubuntu/Desktop/django/hfad_python/meiduo_mall/meiduo_mall/meiduo_mall/apps/verifications/views.py changed, reloading.
+INFO 2020-04-20 18:11:07,158 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-20 18:11:47,488 autoreload 217 /home/ubuntu/Desktop/django/hfad_python/meiduo_mall/meiduo_mall/meiduo_mall/apps/verifications/urls.py changed, reloading.
+INFO 2020-04-20 18:11:49,448 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-20 18:11:57,469 basehttp 154 "GET /usernames/sadgfdg/count/ HTTP/1.1" 200 39
+INFO 2020-04-20 18:12:11,760 basehttp 154 "GET /mobiles/13111111111/count/ HTTP/1.1" 200 39
+WARNING 2020-04-20 18:12:40,637 log 228 Not Found: /image_codes/c978fd7b-8183-4bc8-841e-33dfd4abc50e/
+WARNING 2020-04-20 18:12:40,638 basehttp 154 "GET /image_codes/c978fd7b-8183-4bc8-841e-33dfd4abc50e/ HTTP/1.1" 404 2667
+WARNING 2020-04-20 18:12:41,323 log 228 Not Found: /image_codes/f23c9a80-63e6-4f95-b47b-c7f6ac695fbd/
+WARNING 2020-04-20 18:12:41,328 basehttp 154 "GET /image_codes/f23c9a80-63e6-4f95-b47b-c7f6ac695fbd/ HTTP/1.1" 404 2667
+WARNING 2020-04-20 18:12:42,239 log 228 Not Found: /image_codes/9db2c29d-b66d-42d6-8919-b976844f09d1/
+WARNING 2020-04-20 18:12:42,242 basehttp 154 "GET /image_codes/9db2c29d-b66d-42d6-8919-b976844f09d1/ HTTP/1.1" 404 2667
+INFO 2020-04-20 18:23:03,055 autoreload 217 /home/ubuntu/Desktop/django/hfad_python/meiduo_mall/meiduo_mall/meiduo_mall/apps/verifications/urls.py changed, reloading.
+INFO 2020-04-20 18:23:03,468 autoreload 597 Watching for file changes with StatReloader
+ERROR 2020-04-20 18:23:08,713 log 228 Internal Server Error: /image_codes/3bf9d355-e4a3-4fe5-8c10-a83fb71b3092/
+Traceback (most recent call last):
+  File "/home/ubuntu/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ubuntu/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ubuntu/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/ubuntu/Desktop/django/hfad_python/meiduo_mall/meiduo_mall/meiduo_mall/apps/verifications/views.py", line 12, in get
+    text, image = captcha.generate_captche()
+AttributeError: 'Captcha' object has no attribute 'generate_captche'
+ERROR 2020-04-20 18:23:08,714 basehttp 154 "GET /image_codes/3bf9d355-e4a3-4fe5-8c10-a83fb71b3092/ HTTP/1.1" 500 83882
+ERROR 2020-04-20 18:23:17,843 log 228 Internal Server Error: /image_codes/cf5f76a2-ad3c-4494-9309-6173f33817ef/
+Traceback (most recent call last):
+  File "/home/ubuntu/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ubuntu/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ubuntu/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/ubuntu/Desktop/django/hfad_python/meiduo_mall/meiduo_mall/meiduo_mall/apps/verifications/views.py", line 12, in get
+    text, image = captcha.generate_captche()
+AttributeError: 'Captcha' object has no attribute 'generate_captche'
+ERROR 2020-04-20 18:23:17,845 basehttp 154 "GET /image_codes/cf5f76a2-ad3c-4494-9309-6173f33817ef/ HTTP/1.1" 500 83882
+ERROR 2020-04-20 18:23:19,120 log 228 Internal Server Error: /image_codes/ae11266d-63b7-466e-a622-add43dfa9e70/
+Traceback (most recent call last):
+  File "/home/ubuntu/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ubuntu/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ubuntu/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/ubuntu/Desktop/django/hfad_python/meiduo_mall/meiduo_mall/meiduo_mall/apps/verifications/views.py", line 12, in get
+    text, image = captcha.generate_captche()
+AttributeError: 'Captcha' object has no attribute 'generate_captche'
+ERROR 2020-04-20 18:23:19,121 basehttp 154 "GET /image_codes/ae11266d-63b7-466e-a622-add43dfa9e70/ HTTP/1.1" 500 83882
+INFO 2020-04-20 18:46:46,357 autoreload 597 Watching for file changes with StatReloader
+ERROR 2020-04-20 18:46:51,356 log 228 Internal Server Error: /image_codes/8398141b-7acf-4167-935f-c233a250815e/
+Traceback (most recent call last):
+  File "/home/ubuntu/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ubuntu/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ubuntu/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/ubuntu/Desktop/django/hfad_python/meiduo_mall/meiduo_mall/meiduo_mall/apps/verifications/views.py", line 12, in get
+    text, image = captcha.generate_captche()
+AttributeError: 'Captcha' object has no attribute 'generate_captche'
+ERROR 2020-04-20 18:46:51,358 basehttp 154 "GET /image_codes/8398141b-7acf-4167-935f-c233a250815e/ HTTP/1.1" 500 83882
+INFO 2020-04-20 18:52:19,714 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-20 18:52:22,830 basehttp 154 "GET /image_codes/e9bd0bd3-636d-4e67-b9a2-f19fef406bf6/ HTTP/1.1" 200 2869

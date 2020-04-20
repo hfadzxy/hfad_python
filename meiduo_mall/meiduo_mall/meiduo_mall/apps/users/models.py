@@ -12,5 +12,5 @@ class User(AbstractUser):
         # 制定当前表复数
         verbose_name_plural = verbose_name
 
-        # def __str__(self):
-        #     return self.username
+        def __str__(self):
+            return self.username

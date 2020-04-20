@@ -3,5 +3,6 @@ from django.views import View
 from . import views
 
 urlpatterns = [
-    re_path(r'username/(?P<username>[0-9a-zA-Z_-]{5,20})/count/$', views.UsernameCountView.as_view()),
+    re_path(r'^usernames/(?P<username>\w{5,20})/count/$', views.UsernameCountView.as_view()),
+    re_path(r'^mobiles/(?P<mobile>1[3-9]\d{9})/count/$', views.MobileCountView.as_view()),
 ]

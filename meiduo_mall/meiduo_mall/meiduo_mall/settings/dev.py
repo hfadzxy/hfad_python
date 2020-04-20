@@ -27,7 +27,12 @@ SECRET_KEY = '4h-6_e!g07o$2uf7-tv-lid&mkdnu7uujgg@_&k-4h4=0bo0nk'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'api.meiduo.site',
+    'localhost',
+    '127.0.0.1',
+    'www.meiduo.site'
+]
 
 
 # Application definition
@@ -41,6 +46,9 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     # 子应用配置在apps目录中， 默认导报路径无法找到，需要导入sys模块添加users路径
     'users',
+    # 添加django-cors-headers 使用cors跨域
+    'corsheaders',
+    'verifications',
 ]
 
 MIDDLEWARE = [
@@ -51,6 +59,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'corsheaders.middleware.CorsMiddleware',
 ]
 
 ROOT_URLCONF = 'meiduo_mall.urls'
@@ -146,6 +155,13 @@ CACHES = {
             "CLIENT_CLASS": "django_redis.client.DefaultClient",
         }
     },
+    'verify_code':{
+        'BACKEND':'django_redis.cache.RedisCache',
+        'LOCATION':'redis://127.0.0.1:6379/2',
+        'OPTIONS':{
+            'CLINENT_CLASS':'django_redis.client.DefaultClient',
+        }
+    }
 }
 SESSION_ENGINE = "django.contrib.sessions.backends.cache"
 SESSION_CACHE_ALIAS = "session"
@@ -195,3 +211,14 @@ LOGGING = {
 # 使用定义的模型类代替默认的模型类，原来的User模型类在site-packages/django/contrib/auth/models.py
 # 继承AbstractUser，因为没有手机号码，所以要在users子应用中重写模型类User, 并且修改默认设置
 AUTH_USER_MODEL = 'users.User'
+
+# CORS跨域请求白名单设置
+CORS_ORIGIN_WHITELIST = [
+    'http://127.0.0.1:8080',
+    'http://localhost:8080',
+    'http://www.meiduo.site:8080',
+]
+
+CORS_ALLOW_CREDENTIALS = True
+
+
