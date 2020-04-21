@@ -157,3 +157,95 @@ AttributeError: 'Captcha' object has no attribute 'generate_captche'
 ERROR 2020-04-20 18:46:51,358 basehttp 154 "GET /image_codes/8398141b-7acf-4167-935f-c233a250815e/ HTTP/1.1" 500 83882
 INFO 2020-04-20 18:52:19,714 autoreload 597 Watching for file changes with StatReloader
 INFO 2020-04-20 18:52:22,830 basehttp 154 "GET /image_codes/e9bd0bd3-636d-4e67-b9a2-f19fef406bf6/ HTTP/1.1" 200 2869
+INFO 2020-04-20 20:27:04,793 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-20 20:27:10,411 basehttp 154 "GET /image_codes/d1c1e70b-701a-4459-b904-1cdbd0aebfaf/ HTTP/1.1" 200 3212
+INFO 2020-04-20 20:27:11,790 basehttp 154 "GET /image_codes/016b5c25-7e59-4faa-a3f0-1455e68d06b1/ HTTP/1.1" 200 3072
+INFO 2020-04-20 20:27:12,479 basehttp 154 "GET /image_codes/094c6dde-c0b7-431f-8b38-b5fd1a7dcc04/ HTTP/1.1" 200 3218
+INFO 2020-04-20 20:27:13,088 basehttp 154 "GET /image_codes/7d9bb812-f640-4bf4-a45f-f15d29033bd4/ HTTP/1.1" 200 3310
+INFO 2020-04-20 20:27:13,762 basehttp 154 "GET /image_codes/745773f7-674e-469e-a4f4-60b3a8be3bac/ HTTP/1.1" 200 2933
+INFO 2020-04-20 20:31:32,275 autoreload 217 /home/ubuntu/Desktop/django/hfad_python/meiduo_mall/meiduo_mall/meiduo_mall/apps/verifications/views.py changed, reloading.
+INFO 2020-04-20 20:31:32,687 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-20 20:31:41,521 autoreload 217 /home/ubuntu/Desktop/django/hfad_python/meiduo_mall/meiduo_mall/meiduo_mall/apps/verifications/views.py changed, reloading.
+INFO 2020-04-20 20:31:41,922 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-20 20:31:50,729 autoreload 217 /home/ubuntu/Desktop/django/hfad_python/meiduo_mall/meiduo_mall/meiduo_mall/apps/verifications/views.py changed, reloading.
+INFO 2020-04-20 20:31:51,109 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-20 20:32:20,587 autoreload 217 /home/ubuntu/Desktop/django/hfad_python/meiduo_mall/meiduo_mall/meiduo_mall/apps/verifications/views.py changed, reloading.
+INFO 2020-04-20 20:32:20,999 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-20 20:32:33,051 autoreload 217 /home/ubuntu/Desktop/django/hfad_python/meiduo_mall/meiduo_mall/meiduo_mall/apps/verifications/views.py changed, reloading.
+INFO 2020-04-20 20:32:33,508 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-20 20:40:48,932 basehttp 154 "GET /image_codes/63d3c5fb-e355-4cb9-b1d7-fc5d74153ca2/ HTTP/1.1" 200 3345
+INFO 2020-04-20 20:41:09,777 basehttp 154 "GET /image_codes/6ce2946b-e54e-4b3d-af96-c4f63a30b610/ HTTP/1.1" 200 2941
+INFO 2020-04-20 20:41:11,127 basehttp 154 "GET /image_codes/3bd45479-6b89-4bb1-90f6-260d45abae19/ HTTP/1.1" 200 3141
+INFO 2020-04-20 20:41:13,165 basehttp 154 "GET /image_codes/24d3058b-b683-49c3-a8a7-0028ac97c5b3/ HTTP/1.1" 200 3565
+INFO 2020-04-20 20:41:14,262 basehttp 154 "GET /image_codes/189e3c8e-a77b-4f93-a277-ef1a49f48024/ HTTP/1.1" 200 3033
+INFO 2020-04-21 11:37:56,900 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-21 11:38:36,387 autoreload 217 /home/ubuntu/Desktop/django/hfad_python/meiduo_mall/meiduo_mall/meiduo_mall/apps/verifications/views.py changed, reloading.
+INFO 2020-04-21 11:38:39,198 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-21 11:38:51,344 autoreload 217 /home/ubuntu/Desktop/django/hfad_python/meiduo_mall/meiduo_mall/meiduo_mall/apps/verifications/urls.py changed, reloading.
+INFO 2020-04-21 11:38:51,764 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-21 11:38:54,228 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-21 11:39:02,428 basehttp 154 "GET /image_codes/1f107da4-0dcf-46e1-a63d-5522769e9c5f/ HTTP/1.1" 200 2967
+INFO 2020-04-21 11:39:17,448 basehttp 154 "GET /usernames/jfhsalkdjf/count/ HTTP/1.1" 200 39
+INFO 2020-04-21 11:39:36,007 basehttp 154 "GET /mobiles/13652421005/count/ HTTP/1.1" 200 39
+INFO 2020-04-21 11:39:46,638 basehttp 154 "GET /sms_codes/13652421005/?image_code=q60i&image_code_id=1f107da4-0dcf-46e1-a63d-5522769e9c5f HTTP/1.1" 200 63
+INFO 2020-04-21 11:39:46,647 basehttp 154 "GET /mobiles/13652421005/count/ HTTP/1.1" 200 39
+INFO 2020-04-21 11:43:57,021 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-21 11:44:01,924 basehttp 154 "GET /image_codes/eb35ad4c-095d-4508-a742-29c0b172d22c/ HTTP/1.1" 200 3300
+INFO 2020-04-21 11:44:07,617 basehttp 154 "GET /mobiles/13652421005/count/ HTTP/1.1" 200 39
+INFO 2020-04-21 11:44:08,149 basehttp 154 "GET /sms_codes/13652421005/?image_code=wzvf&image_code_id=eb35ad4c-095d-4508-a742-29c0b172d22c HTTP/1.1" 200 61
+INFO 2020-04-21 11:44:41,333 basehttp 154 "GET /mobiles/13652421005/count/ HTTP/1.1" 200 39
+INFO 2020-04-21 11:44:41,339 basehttp 154 "GET /usernames/jfhsalkdjf/count/ HTTP/1.1" 200 39
+INFO 2020-04-21 11:44:41,349 basehttp 154 "OPTIONS /register/ HTTP/1.1" 200 0
+WARNING 2020-04-21 11:44:41,363 log 228 Not Found: /register/
+WARNING 2020-04-21 11:44:41,364 basehttp 154 "POST /register/ HTTP/1.1" 404 2738
+WARNING 2020-04-21 11:44:42,482 log 228 Not Found: /register/
+WARNING 2020-04-21 11:44:42,487 basehttp 154 "POST /register/ HTTP/1.1" 404 2738
+INFO 2020-04-21 11:44:42,491 basehttp 154 "GET /mobiles/13652421005/count/ HTTP/1.1" 200 39
+INFO 2020-04-21 11:44:42,491 basehttp 154 "GET /usernames/jfhsalkdjf/count/ HTTP/1.1" 200 39
+WARNING 2020-04-21 11:44:43,124 log 228 Not Found: /register/
+WARNING 2020-04-21 11:44:43,126 basehttp 154 "POST /register/ HTTP/1.1" 404 2738
+INFO 2020-04-21 11:44:43,130 basehttp 154 "GET /mobiles/13652421005/count/ HTTP/1.1" 200 39
+INFO 2020-04-21 11:44:43,132 basehttp 154 "GET /usernames/jfhsalkdjf/count/ HTTP/1.1" 200 39
+INFO 2020-04-21 11:44:43,556 basehttp 154 "GET /usernames/jfhsalkdjf/count/ HTTP/1.1" 200 39
+WARNING 2020-04-21 11:44:43,560 log 228 Not Found: /register/
+INFO 2020-04-21 11:44:43,561 basehttp 154 "GET /mobiles/13652421005/count/ HTTP/1.1" 200 39
+WARNING 2020-04-21 11:44:43,561 basehttp 154 "POST /register/ HTTP/1.1" 404 2738
+WARNING 2020-04-21 11:44:43,835 log 228 Not Found: /register/
+WARNING 2020-04-21 11:44:43,841 basehttp 154 "POST /register/ HTTP/1.1" 404 2738
+INFO 2020-04-21 11:44:43,847 basehttp 154 "GET /mobiles/13652421005/count/ HTTP/1.1" 200 39
+INFO 2020-04-21 11:44:43,848 basehttp 154 "GET /usernames/jfhsalkdjf/count/ HTTP/1.1" 200 39
+WARNING 2020-04-21 11:44:43,990 log 228 Not Found: /register/
+WARNING 2020-04-21 11:44:43,996 basehttp 154 "POST /register/ HTTP/1.1" 404 2738
+INFO 2020-04-21 11:44:43,997 basehttp 154 "GET /usernames/jfhsalkdjf/count/ HTTP/1.1" 200 39
+INFO 2020-04-21 11:44:43,998 basehttp 154 "GET /mobiles/13652421005/count/ HTTP/1.1" 200 39
+INFO 2020-04-21 11:44:44,160 basehttp 154 "GET /usernames/jfhsalkdjf/count/ HTTP/1.1" 200 39
+INFO 2020-04-21 11:44:44,165 basehttp 154 "GET /mobiles/13652421005/count/ HTTP/1.1" 200 39
+WARNING 2020-04-21 11:44:44,169 log 228 Not Found: /register/
+WARNING 2020-04-21 11:44:44,178 basehttp 154 "POST /register/ HTTP/1.1" 404 2738
+WARNING 2020-04-21 11:44:44,327 log 228 Not Found: /register/
+WARNING 2020-04-21 11:44:44,328 basehttp 154 "POST /register/ HTTP/1.1" 404 2738
+INFO 2020-04-21 11:44:44,334 basehttp 154 "GET /mobiles/13652421005/count/ HTTP/1.1" 200 39
+INFO 2020-04-21 11:44:44,334 basehttp 154 "GET /usernames/jfhsalkdjf/count/ HTTP/1.1" 200 39
+INFO 2020-04-21 11:44:44,498 basehttp 154 "GET /mobiles/13652421005/count/ HTTP/1.1" 200 39
+INFO 2020-04-21 11:44:44,498 basehttp 154 "GET /usernames/jfhsalkdjf/count/ HTTP/1.1" 200 39
+WARNING 2020-04-21 11:44:44,503 log 228 Not Found: /register/
+WARNING 2020-04-21 11:44:44,506 basehttp 154 "POST /register/ HTTP/1.1" 404 2738
+INFO 2020-04-21 11:45:46,907 basehttp 154 "GET /sms_codes/13652421005/?image_code=wzvf&image_code_id=eb35ad4c-095d-4508-a742-29c0b172d22c HTTP/1.1" 200 69
+INFO 2020-04-21 11:45:46,911 basehttp 154 "GET /mobiles/13652421005/count/ HTTP/1.1" 200 39
+INFO 2020-04-21 12:01:18,112 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-21 12:01:23,633 basehttp 154 "GET /image_codes/c6b4c67c-bf08-4454-8c25-b9929ce5c40c/ HTTP/1.1" 200 3387
+INFO 2020-04-21 12:01:28,156 basehttp 154 "GET /usernames/jfhsalkdjf/count/ HTTP/1.1" 200 39
+INFO 2020-04-21 12:01:37,767 basehttp 154 "GET /mobiles/13652421005/count/ HTTP/1.1" 200 39
+INFO 2020-04-21 12:01:43,367 basehttp 154 "GET /mobiles/13652421005/count/ HTTP/1.1" 200 39
+INFO 2020-04-21 12:01:43,922 basehttp 154 "GET /sms_codes/13652421005/?image_code=opz8&image_code_id=c6b4c67c-bf08-4454-8c25-b9929ce5c40c HTTP/1.1" 200 61
+INFO 2020-04-21 12:02:02,525 basehttp 154 "GET /usernames/jfhsalkdjf/count/ HTTP/1.1" 200 39
+INFO 2020-04-21 12:02:02,528 basehttp 154 "GET /mobiles/13652421005/count/ HTTP/1.1" 200 39
+INFO 2020-04-21 12:02:04,786 basehttp 154 "GET /mobiles/13652421005/count/ HTTP/1.1" 200 39
+INFO 2020-04-21 12:02:04,788 basehttp 154 "GET /usernames/jfhsalkdjf/count/ HTTP/1.1" 200 39
+INFO 2020-04-21 12:02:04,791 basehttp 154 "OPTIONS /register/ HTTP/1.1" 200 0
+WARNING 2020-04-21 12:02:04,805 log 228 Not Found: /register/
+WARNING 2020-04-21 12:02:04,806 basehttp 154 "POST /register/ HTTP/1.1" 404 2738
+WARNING 2020-04-21 12:02:05,913 log 228 Not Found: /register/
+INFO 2020-04-21 12:02:05,917 basehttp 154 "GET /mobiles/13652421005/count/ HTTP/1.1" 200 39
+INFO 2020-04-21 12:02:05,917 basehttp 154 "GET /usernames/jfhsalkdjf/count/ HTTP/1.1" 200 39
+WARNING 2020-04-21 12:02:05,919 basehttp 154 "POST /register/ HTTP/1.1" 404 2738
