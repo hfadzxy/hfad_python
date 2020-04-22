@@ -22,4 +22,5 @@ urlpatterns = [
     # 总路由设为空直接在子路由验证
     path(r'', include('users.urls')),
     path(r'', include('verifications.urls')),
+    path(r'', include('oauth.urls')),
 ]

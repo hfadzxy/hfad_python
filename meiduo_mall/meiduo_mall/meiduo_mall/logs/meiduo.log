@@ -547,3 +547,30 @@ INFO 2020-04-22 06:22:36,152 basehttp 154 "OPTIONS /login/ HTTP/1.1" 200 0
 INFO 2020-04-22 06:22:36,310 basehttp 154 "POST /login/ HTTP/1.1" 200 27
 WARNING 2020-04-22 06:22:36,770 log 228 Not Found: /carts/simple/
 WARNING 2020-04-22 06:22:36,770 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 3062
+INFO 2020-04-22 07:16:48,919 autoreload 597 Watching for file changes with StatReloader
+WARNING 2020-04-22 07:16:55,415 log 228 Not Found: /carts/simple/
+WARNING 2020-04-22 07:16:55,416 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 3218
+INFO 2020-04-22 07:16:59,949 basehttp 154 "OPTIONS /logout/ HTTP/1.1" 200 0
+INFO 2020-04-22 07:16:59,983 basehttp 154 "DELETE /logout/ HTTP/1.1" 200 27
+INFO 2020-04-22 07:17:19,332 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-22 07:17:22,320 basehttp 154 "OPTIONS /login/ HTTP/1.1" 200 0
+INFO 2020-04-22 07:17:22,457 basehttp 154 "POST /login/ HTTP/1.1" 200 27
+WARNING 2020-04-22 07:17:22,890 log 228 Not Found: /carts/simple/
+WARNING 2020-04-22 07:17:22,892 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 3218
+INFO 2020-04-22 07:17:31,993 basehttp 154 "DELETE /logout/ HTTP/1.1" 200 27
+INFO 2020-04-22 07:18:12,215 basehttp 154 "POST /login/ HTTP/1.1" 200 27
+WARNING 2020-04-22 07:18:12,898 log 228 Not Found: /carts/simple/
+WARNING 2020-04-22 07:18:12,905 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 3218
+INFO 2020-04-22 07:18:35,538 basehttp 154 "DELETE /logout/ HTTP/1.1" 200 27
+INFO 2020-04-22 09:12:28,085 autoreload 597 Watching for file changes with StatReloader
+WARNING 2020-04-22 09:12:40,662 log 228 Not Found: /carts/simple/
+WARNING 2020-04-22 09:12:40,664 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 3372
+INFO 2020-04-22 09:12:44,107 basehttp 154 "OPTIONS /login/ HTTP/1.1" 200 0
+INFO 2020-04-22 09:12:44,254 basehttp 154 "POST /login/ HTTP/1.1" 200 27
+WARNING 2020-04-22 09:12:44,657 log 228 Not Found: /carts/simple/
+WARNING 2020-04-22 09:12:44,658 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 3372
+INFO 2020-04-22 09:12:48,242 basehttp 154 "OPTIONS /logout/ HTTP/1.1" 200 0
+INFO 2020-04-22 14:12:44,408 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-22 14:12:50,395 basehttp 154 "OPTIONS /logout/ HTTP/1.1" 200 0
+INFO 2020-04-22 14:12:50,419 basehttp 154 "DELETE /logout/ HTTP/1.1" 200 27
+INFO 2020-04-22 14:12:53,692 basehttp 154 "GET /qq/authorization/?next=/ HTTP/1.1" 200 203

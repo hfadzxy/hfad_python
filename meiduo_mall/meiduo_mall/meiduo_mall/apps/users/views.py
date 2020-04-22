@@ -1,11 +1,13 @@
-from django.contrib.auth import login, authenticate
+from django.contrib.auth import login, authenticate, logout
 from django.shortcuts import render
 from django_redis import get_redis_connection
 import re
 import json
 from django.views import View
+
+from meiduo_mall.utils.view import LoginRequireMixin
 from users.models import User
-from django.http import JsonResponse
+from django.http import JsonResponse, HttpResponse
 
 # Create your views here.
 class UsernameCountView(View):
@@ -111,6 +113,20 @@ class LoginView(View):
         # 返回json
         return response
 
+
+class LogoutView(View):
+    def delete(self, request):
+        # 删除session信息：logout()
+        logout(request)
+        response = JsonResponse({'code':0,'errmsg':'ok'})
+        # 清理cookie
+        response.delete_cookie('username')
+        return response
+
+
+class UserInfoView(LoginRequireMixin, View):
+    def get(self, request):
+        return HttpResponse('UserInfoView')
 
 
 
