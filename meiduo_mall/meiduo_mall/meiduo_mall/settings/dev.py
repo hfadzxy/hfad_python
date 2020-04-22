@@ -55,7 +55,7 @@ MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
-    'django.middleware.csrf.CsrfViewMiddleware',
+    # 'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
@@ -211,6 +211,7 @@ LOGGING = {
 # 使用定义的模型类代替默认的模型类，原来的User模型类在site-packages/django/contrib/auth/models.py
 # 继承AbstractUser，因为没有手机号码，所以要在users子应用中重写模型类User, 并且修改默认设置
 AUTH_USER_MODEL = 'users.User'
+AUTHENTICATION_BACKENDS = ['users.utils.UsernameMobileAuthentication']
 
 # CORS跨域请求白名单设置
 CORS_ORIGIN_WHITELIST = [

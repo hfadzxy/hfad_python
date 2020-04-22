@@ -279,3 +279,271 @@ INFO 2020-04-21 13:21:58,364 basehttp 154 "GET /usernames/jfhsalkdjf/count/ HTTP
 INFO 2020-04-21 13:22:06,449 basehttp 154 "GET /mobiles/13652421005/count/ HTTP/1.1" 200 39
 INFO 2020-04-21 13:22:11,787 basehttp 154 "GET /mobiles/13652421005/count/ HTTP/1.1" 200 39
 INFO 2020-04-21 13:22:11,921 basehttp 154 "GET /sms_codes/13652421005/?image_code=ihsk&image_code_id=a7772438-29f6-4138-9c99-c2026779ed1b HTTP/1.1" 200 61
+INFO 2020-04-21 13:42:14,018 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-21 13:42:42,935 basehttp 154 "GET /admin/ HTTP/1.1" 302 0
+INFO 2020-04-21 13:42:42,999 basehttp 154 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1819
+INFO 2020-04-21 13:42:43,153 basehttp 154 "GET /static/admin/css/base.css HTTP/1.1" 200 16378
+INFO 2020-04-21 13:42:43,160 basehttp 154 "GET /static/admin/css/login.css HTTP/1.1" 200 1233
+INFO 2020-04-21 13:42:43,164 basehttp 154 "GET /static/admin/css/responsive.css HTTP/1.1" 200 17944
+INFO 2020-04-21 13:42:43,188 basehttp 154 "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+WARNING 2020-04-21 13:42:43,390 log 228 Not Found: /favicon.ico
+WARNING 2020-04-21 13:42:43,392 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2737
+INFO 2020-04-21 13:42:43,394 basehttp 154 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+INFO 2020-04-21 13:42:43,398 basehttp 154 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+INFO 2020-04-21 13:42:52,791 basehttp 154 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 1980
+INFO 2020-04-21 13:42:52,894 basehttp 154 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+INFO 2020-04-21 13:48:27,610 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-21 13:48:35,465 basehttp 154 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2020-04-21 13:48:35,517 basehttp 154 "GET /admin/ HTTP/1.1" 200 3289
+INFO 2020-04-21 13:48:35,603 basehttp 154 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 412
+INFO 2020-04-21 13:48:35,611 basehttp 154 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2020-04-21 13:48:35,627 basehttp 154 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2020-04-21 13:48:43,431 basehttp 154 "GET /admin/users/user/add/ HTTP/1.1" 200 13275
+INFO 2020-04-21 13:48:43,464 basehttp 154 "GET /static/admin/css/forms.css HTTP/1.1" 200 8518
+INFO 2020-04-21 13:48:43,501 basehttp 154 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 363
+INFO 2020-04-21 13:48:43,525 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-04-21 13:48:43,527 basehttp 154 "GET /static/admin/js/calendar.js HTTP/1.1" 200 7777
+INFO 2020-04-21 13:48:43,528 basehttp 154 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 6918
+INFO 2020-04-21 13:48:43,531 basehttp 154 "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 20218
+INFO 2020-04-21 13:48:43,532 basehttp 154 "GET /static/admin/js/core.js HTTP/1.1" 200 7099
+INFO 2020-04-21 13:48:43,542 basehttp 154 "GET /static/admin/css/widgets.css HTTP/1.1" 200 10340
+INFO 2020-04-21 13:48:43,546 basehttp 154 "GET /static/admin/js/urlify.js HTTP/1.1" 200 8941
+INFO 2020-04-21 13:48:43,547 basehttp 154 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 271817
+INFO 2020-04-21 13:48:43,553 basehttp 154 "GET /static/admin/js/actions.js HTTP/1.1" 200 6766
+INFO 2020-04-21 13:48:43,559 basehttp 154 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1530
+INFO 2020-04-21 13:48:43,582 basehttp 154 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 128820
+INFO 2020-04-21 13:48:43,597 basehttp 154 "GET /static/admin/js/change_form.js HTTP/1.1" 200 712
+INFO 2020-04-21 13:48:43,598 basehttp 154 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 495
+INFO 2020-04-21 13:48:43,778 basehttp 154 "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+INFO 2020-04-21 13:48:43,787 basehttp 154 "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+INFO 2020-04-21 13:49:01,301 basehttp 154 "GET /admin/ HTTP/1.1" 200 3289
+INFO 2020-04-22 03:03:32,292 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-22 03:09:05,905 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-22 03:18:41,890 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-22 03:22:27,303 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-22 03:24:31,364 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-22 03:25:06,235 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-22 03:33:35,068 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-22 03:35:58,729 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-22 03:36:05,608 basehttp 154 "GET /image_codes/cb75999c-9b71-4fc3-b82e-7d9bd977c2e8/ HTTP/1.1" 200 3192
+INFO 2020-04-22 03:36:13,705 basehttp 154 "GET /mobiles/13652421005/count/ HTTP/1.1" 200 39
+INFO 2020-04-22 03:36:13,878 basehttp 154 "GET /sms_codes/13652421005/?image_code=xhko&image_code_id=cb75999c-9b71-4fc3-b82e-7d9bd977c2e8 HTTP/1.1" 200 61
+INFO 2020-04-22 03:36:49,045 basehttp 154 "OPTIONS /register/ HTTP/1.1" 200 0
+INFO 2020-04-22 03:36:49,111 basehttp 154 "GET /mobiles/13652421005/count/ HTTP/1.1" 200 39
+INFO 2020-04-22 03:36:49,123 basehttp 154 "GET /usernames/meihao/count/ HTTP/1.1" 200 39
+ERROR 2020-04-22 03:36:49,131 log 228 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "/home/ubuntu/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ubuntu/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ubuntu/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/ubuntu/Desktop/django预习/hfad_python/meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py", line 42, in post
+    if not all(username, password, password2, mobile, allow, sms_code_client):
+TypeError: all() takes exactly one argument (6 given)
+ERROR 2020-04-22 03:36:49,135 basehttp 154 "POST /register/ HTTP/1.1" 500 84267
+INFO 2020-04-22 03:36:52,657 basehttp 154 "GET /usernames/meihao/count/ HTTP/1.1" 200 39
+INFO 2020-04-22 03:36:52,661 basehttp 154 "GET /mobiles/13652421005/count/ HTTP/1.1" 200 39
+ERROR 2020-04-22 03:36:52,694 log 228 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "/home/ubuntu/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ubuntu/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ubuntu/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/ubuntu/Desktop/django预习/hfad_python/meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py", line 42, in post
+    if not all(username, password, password2, mobile, allow, sms_code_client):
+TypeError: all() takes exactly one argument (6 given)
+ERROR 2020-04-22 03:36:52,695 basehttp 154 "POST /register/ HTTP/1.1" 500 84267
+INFO 2020-04-22 03:41:13,775 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-22 03:41:18,171 basehttp 154 "GET /image_codes/aaf196cf-931a-4bc1-8cad-1d28a6335803/ HTTP/1.1" 200 3456
+INFO 2020-04-22 03:41:29,854 basehttp 154 "GET /mobiles/13652421005/count/ HTTP/1.1" 200 39
+INFO 2020-04-22 03:41:30,005 basehttp 154 "GET /sms_codes/13652421005/?image_code=cqer&image_code_id=aaf196cf-931a-4bc1-8cad-1d28a6335803 HTTP/1.1" 200 61
+INFO 2020-04-22 03:41:52,840 basehttp 154 "GET /usernames/meihao/count/ HTTP/1.1" 200 39
+INFO 2020-04-22 03:41:52,840 basehttp 154 "GET /mobiles/13652421005/count/ HTTP/1.1" 200 39
+INFO 2020-04-22 03:41:53,082 basehttp 154 "POST /register/ HTTP/1.1" 200 27
+WARNING 2020-04-22 03:41:53,626 log 228 Not Found: /carts/simple/
+WARNING 2020-04-22 03:41:53,631 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 2907
+INFO 2020-04-22 04:06:29,486 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-22 04:07:11,349 basehttp 154 "OPTIONS /login/ HTTP/1.1" 200 0
+ERROR 2020-04-22 04:07:11,441 log 228 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "/home/ubuntu/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ubuntu/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ubuntu/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/ubuntu/Desktop/django预习/hfad_python/meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py", line 82, in post
+    dict = json.load(request.body.decode())
+  File "/usr/lib/python3.6/json/__init__.py", line 296, in load
+    return loads(fp.read(),
+AttributeError: 'str' object has no attribute 'read'
+ERROR 2020-04-22 04:07:11,443 basehttp 154 "POST /login/ HTTP/1.1" 500 87877
+INFO 2020-04-22 04:07:35,970 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-22 04:07:47,453 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-22 04:08:07,838 autoreload 597 Watching for file changes with StatReloader
+ERROR 2020-04-22 04:08:17,446 log 228 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "/home/ubuntu/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ubuntu/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ubuntu/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/ubuntu/Desktop/django预习/hfad_python/meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py", line 82, in post
+    dict = json.load(request.body.decode())
+  File "/usr/lib/python3.6/json/__init__.py", line 296, in load
+    return loads(fp.read(),
+AttributeError: 'str' object has no attribute 'read'
+ERROR 2020-04-22 04:08:17,449 basehttp 154 "POST /login/ HTTP/1.1" 500 87877
+ERROR 2020-04-22 04:08:18,356 log 228 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "/home/ubuntu/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ubuntu/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ubuntu/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/ubuntu/Desktop/django预习/hfad_python/meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py", line 82, in post
+    dict = json.load(request.body.decode())
+  File "/usr/lib/python3.6/json/__init__.py", line 296, in load
+    return loads(fp.read(),
+AttributeError: 'str' object has no attribute 'read'
+ERROR 2020-04-22 04:08:18,357 basehttp 154 "POST /login/ HTTP/1.1" 500 87877
+INFO 2020-04-22 04:11:14,727 autoreload 597 Watching for file changes with StatReloader
+WARNING 2020-04-22 04:11:23,707 log 228 Not Found: /carts/simple/
+WARNING 2020-04-22 04:11:23,709 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 3062
+INFO 2020-04-22 04:11:42,598 basehttp 154 "OPTIONS /login/ HTTP/1.1" 200 0
+ERROR 2020-04-22 04:11:42,672 log 228 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "/home/ubuntu/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ubuntu/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ubuntu/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/ubuntu/Desktop/django预习/hfad_python/meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py", line 82, in post
+    dict = json.load(request.body.decode())
+  File "/usr/lib/python3.6/json/__init__.py", line 296, in load
+    return loads(fp.read(),
+AttributeError: 'str' object has no attribute 'read'
+ERROR 2020-04-22 04:11:42,673 basehttp 154 "POST /login/ HTTP/1.1" 500 87877
+INFO 2020-04-22 04:12:33,822 autoreload 597 Watching for file changes with StatReloader
+ERROR 2020-04-22 04:12:36,943 log 228 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "/home/ubuntu/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ubuntu/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ubuntu/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/ubuntu/Desktop/django预习/hfad_python/meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py", line 82, in post
+    dict = json.load(request.body.decode())
+  File "/usr/lib/python3.6/json/__init__.py", line 296, in load
+    return loads(fp.read(),
+AttributeError: 'str' object has no attribute 'read'
+ERROR 2020-04-22 04:12:36,944 basehttp 154 "POST /login/ HTTP/1.1" 500 87877
+INFO 2020-04-22 04:15:52,316 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-22 04:15:55,628 basehttp 154 "POST /login/ HTTP/1.1" 200 27
+WARNING 2020-04-22 04:15:56,083 log 228 Not Found: /carts/simple/
+WARNING 2020-04-22 04:15:56,084 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 3062
+INFO 2020-04-22 04:27:37,166 autoreload 597 Watching for file changes with StatReloader
+WARNING 2020-04-22 04:28:23,787 log 228 Not Found: /carts/simple/
+WARNING 2020-04-22 04:28:23,789 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 3062
+INFO 2020-04-22 04:28:33,092 basehttp 154 "OPTIONS /login/ HTTP/1.1" 200 0
+INFO 2020-04-22 04:28:33,239 basehttp 154 "POST /login/ HTTP/1.1" 200 27
+WARNING 2020-04-22 04:28:33,644 log 228 Not Found: /carts/simple/
+WARNING 2020-04-22 04:28:33,645 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 3062
+WARNING 2020-04-22 04:28:44,277 log 228 Not Found: /carts/simple/
+WARNING 2020-04-22 04:28:44,278 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 3062
+INFO 2020-04-22 05:42:31,436 autoreload 597 Watching for file changes with StatReloader
+WARNING 2020-04-22 05:42:37,749 log 228 Not Found: /carts/simple/
+WARNING 2020-04-22 05:42:37,750 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 3062
+INFO 2020-04-22 05:42:52,883 basehttp 154 "OPTIONS /login/ HTTP/1.1" 200 0
+ERROR 2020-04-22 05:42:52,939 log 228 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "/home/ubuntu/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/utils/module_loading.py", line 20, in import_string
+    return getattr(module, class_name)
+AttributeError: module 'users.utils' has no attribute 'UsernameMobileAuthBackend'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ubuntu/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ubuntu/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/ubuntu/Desktop/django预习/hfad_python/meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py", line 91, in post
+    user = authenticate(username=username, password=password)
+  File "/home/ubuntu/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/contrib/auth/__init__.py", line 66, in authenticate
+    for backend, backend_path in _get_backends(return_tuples=True):
+  File "/home/ubuntu/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/contrib/auth/__init__.py", line 27, in _get_backends
+    backend = load_backend(backend_path)
+  File "/home/ubuntu/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/contrib/auth/__init__.py", line 21, in load_backend
+    return import_string(path)()
+  File "/home/ubuntu/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/utils/module_loading.py", line 24, in import_string
+    ) from err
+ImportError: Module "users.utils" does not define a "UsernameMobileAuthBackend" attribute/class
+ERROR 2020-04-22 05:42:52,941 basehttp 154 "POST /login/ HTTP/1.1" 500 104959
+INFO 2020-04-22 05:43:59,896 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-22 05:44:03,220 basehttp 154 "POST /login/ HTTP/1.1" 200 27
+WARNING 2020-04-22 05:44:03,674 log 228 Not Found: /carts/simple/
+WARNING 2020-04-22 05:44:03,677 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 3062
+INFO 2020-04-22 05:45:33,775 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-22 05:46:41,553 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-22 05:46:46,141 basehttp 154 "OPTIONS /login/ HTTP/1.1" 200 0
+INFO 2020-04-22 05:46:46,266 basehttp 154 "POST /login/ HTTP/1.1" 200 27
+WARNING 2020-04-22 05:46:46,778 log 228 Not Found: /carts/simple/
+WARNING 2020-04-22 05:46:46,779 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 3062
+INFO 2020-04-22 05:47:34,530 autoreload 597 Watching for file changes with StatReloader
+WARNING 2020-04-22 05:47:40,756 log 228 Not Found: /carts/simple/
+WARNING 2020-04-22 05:47:40,760 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 3062
+INFO 2020-04-22 05:47:43,835 basehttp 154 "OPTIONS /login/ HTTP/1.1" 200 0
+INFO 2020-04-22 05:48:44,978 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-22 06:16:54,031 autoreload 217 /home/ubuntu/Desktop/django预习/hfad_python/meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-04-22 06:16:55,408 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-22 06:18:01,966 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-22 06:18:36,497 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-22 06:20:22,401 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-22 06:22:29,363 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-22 06:22:36,152 basehttp 154 "OPTIONS /login/ HTTP/1.1" 200 0
+INFO 2020-04-22 06:22:36,310 basehttp 154 "POST /login/ HTTP/1.1" 200 27
+WARNING 2020-04-22 06:22:36,770 log 228 Not Found: /carts/simple/
+WARNING 2020-04-22 06:22:36,770 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 3062
