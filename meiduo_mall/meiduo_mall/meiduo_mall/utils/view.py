@@ -3,7 +3,7 @@ from django import http
 
 def my_decorator(view):
     def wrapper(request, *args, **kwargs):
-        if request.usr.is_authenticated:
+        if request.user.is_authenticated:
             return view(request, *args, **kwargs)
         else:
             return http.JsonResponse({'code':400, 'errmsg':'请登录后重试'})

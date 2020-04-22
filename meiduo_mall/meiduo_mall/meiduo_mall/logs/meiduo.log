@@ -574,3 +574,203 @@ INFO 2020-04-22 14:12:44,408 autoreload 597 Watching for file changes with StatR
 INFO 2020-04-22 14:12:50,395 basehttp 154 "OPTIONS /logout/ HTTP/1.1" 200 0
 INFO 2020-04-22 14:12:50,419 basehttp 154 "DELETE /logout/ HTTP/1.1" 200 27
 INFO 2020-04-22 14:12:53,692 basehttp 154 "GET /qq/authorization/?next=/ HTTP/1.1" 200 203
+INFO 2020-04-22 19:04:06,164 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-22 19:04:57,091 autoreload 217 /home/ubuntu/Desktop/django预习/hfad_python/meiduo_mall/meiduo_mall/meiduo_mall/apps/oauth/utils.py changed, reloading.
+INFO 2020-04-22 19:04:57,526 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-22 19:05:00,717 autoreload 597 Watching for file changes with StatReloader
+WARNING 2020-04-22 19:05:25,961 log 228 Not Found: /carts/simple/
+WARNING 2020-04-22 19:05:25,962 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 3702
+INFO 2020-04-22 19:05:38,974 basehttp 154 "GET /qq/authorization/?next=/ HTTP/1.1" 200 203
+INFO 2020-04-22 19:06:18,737 basehttp 154 "GET /oauth_callback/?code=F0A13719D65885585D82415D4518F262 HTTP/1.1" 200 263
+INFO 2020-04-22 19:06:18,815 basehttp 154 "GET /image_codes/fa40a9ec-98b0-4c4d-8fb8-31bf8813542a/ HTTP/1.1" 200 3485
+INFO 2020-04-22 19:06:45,406 basehttp 154 "GET /sms_codes/13652421005/?image_code=mwvo&image_code_id=fa40a9ec-98b0-4c4d-8fb8-31bf8813542a HTTP/1.1" 200 61
+INFO 2020-04-22 19:07:06,785 basehttp 154 "OPTIONS /oauth_callback/ HTTP/1.1" 200 0
+INFO 2020-04-22 19:07:06,962 basehttp 154 "POST /oauth_callback/ HTTP/1.1" 200 27
+WARNING 2020-04-22 19:07:07,569 log 228 Not Found: /carts/simple/
+WARNING 2020-04-22 19:07:07,570 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 3702
+WARNING 2020-04-22 19:07:26,666 log 228 Not Found: /browse_histories/
+WARNING 2020-04-22 19:07:26,671 basehttp 154 "GET /browse_histories/ HTTP/1.1" 404 3714
+ERROR 2020-04-22 19:07:26,734 log 228 Internal Server Error: /info/
+Traceback (most recent call last):
+  File "/home/ubuntu/.virtualenvs/django_env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.virtualenvs/django_env/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ubuntu/.virtualenvs/django_env/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/Desktop/django预习/hfad_python/meiduo_mall/meiduo_mall/meiduo_mall/utils/view.py", line 6, in wrapper
+    if request.usr.is_authenticated:
+AttributeError: 'WSGIRequest' object has no attribute 'usr'
+ERROR 2020-04-22 19:07:26,737 basehttp 154 "GET /info/ HTTP/1.1" 500 74282
+INFO 2020-04-22 19:07:40,569 basehttp 154 "OPTIONS /logout/ HTTP/1.1" 200 0
+INFO 2020-04-22 19:07:40,592 basehttp 154 "DELETE /logout/ HTTP/1.1" 200 27
+INFO 2020-04-22 19:07:44,405 basehttp 154 "GET /qq/authorization/?next=/ HTTP/1.1" 200 203
+INFO 2020-04-22 19:07:59,881 basehttp 154 "GET /oauth_callback/?code=F6F582B7A47FF2854CEB670A60A9FAAE HTTP/1.1" 200 27
+WARNING 2020-04-22 19:08:00,359 log 228 Not Found: /carts/simple/
+WARNING 2020-04-22 19:08:00,360 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 3702
+WARNING 2020-04-22 19:10:58,344 log 228 Not Found: /carts/simple/
+WARNING 2020-04-22 19:10:58,346 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 3702
+WARNING 2020-04-22 19:11:36,792 log 228 Not Found: /carts/simple/
+WARNING 2020-04-22 19:11:36,793 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 3702
+INFO 2020-04-22 19:11:38,261 basehttp 154 "OPTIONS /logout/ HTTP/1.1" 200 0
+INFO 2020-04-22 19:11:38,294 basehttp 154 "DELETE /logout/ HTTP/1.1" 200 27
+WARNING 2020-04-22 19:11:47,714 log 228 Not Found: /carts/simple/
+WARNING 2020-04-22 19:11:47,715 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 3702
+WARNING 2020-04-22 19:12:00,996 log 228 Not Found: /carts/simple/
+WARNING 2020-04-22 19:12:00,997 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 3702
+WARNING 2020-04-22 19:12:55,158 log 228 Not Found: /carts/simple/
+WARNING 2020-04-22 19:12:55,163 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 3702
+WARNING 2020-04-22 19:13:02,361 log 228 Not Found: /carts/
+WARNING 2020-04-22 19:13:02,362 basehttp 154 "GET /carts/ HTTP/1.1" 404 3681
+INFO 2020-04-22 19:13:05,575 basehttp 154 "OPTIONS /carts/selection/ HTTP/1.1" 200 0
+WARNING 2020-04-22 19:13:05,585 log 228 Not Found: /carts/selection/
+WARNING 2020-04-22 19:13:05,587 basehttp 154 "PUT /carts/selection/ HTTP/1.1" 404 3711
+WARNING 2020-04-22 19:13:49,594 log 228 Not Found: /carts/simple/
+WARNING 2020-04-22 19:13:49,595 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 3702
+INFO 2020-04-22 19:16:01,179 autoreload 597 Watching for file changes with StatReloader
+WARNING 2020-04-22 19:16:12,256 log 228 Not Found: /
+WARNING 2020-04-22 19:16:12,258 basehttp 154 "GET / HTTP/1.1" 404 3639
+WARNING 2020-04-22 19:16:12,366 log 228 Not Found: /favicon.ico
+WARNING 2020-04-22 19:16:12,370 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 3690
+WARNING 2020-04-22 19:16:22,281 log 228 Not Found: /carts/simple/
+WARNING 2020-04-22 19:16:22,289 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 3702
+WARNING 2020-04-22 19:16:30,723 log 228 Not Found: /carts/simple/
+WARNING 2020-04-22 19:16:30,725 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 3702
+WARNING 2020-04-22 19:17:20,419 log 228 Not Found: /carts/simple/
+WARNING 2020-04-22 19:17:20,420 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 3702
+WARNING 2020-04-22 19:18:07,904 log 228 Not Found: /carts/simple/
+WARNING 2020-04-22 19:18:07,905 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 3702
+INFO 2020-04-22 19:55:10,502 autoreload 597 Watching for file changes with StatReloader
+WARNING 2020-04-22 19:55:17,648 log 228 Not Found: /carts/simple/
+WARNING 2020-04-22 19:55:17,648 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 3702
+INFO 2020-04-22 19:55:30,969 basehttp 154 "OPTIONS /login/ HTTP/1.1" 200 0
+INFO 2020-04-22 19:55:31,102 basehttp 154 "POST /login/ HTTP/1.1" 200 27
+WARNING 2020-04-22 19:55:31,516 log 228 Not Found: /carts/simple/
+WARNING 2020-04-22 19:55:31,517 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 3702
+INFO 2020-04-22 19:59:36,470 basehttp 154 "POST /login/ HTTP/1.1" 200 75
+INFO 2020-04-22 19:59:45,758 basehttp 154 "POST /login/ HTTP/1.1" 200 27
+WARNING 2020-04-22 19:59:46,204 log 228 Not Found: /carts/simple/
+WARNING 2020-04-22 19:59:46,206 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 3702
+WARNING 2020-04-22 20:01:09,339 log 228 Not Found: /carts/simple/
+WARNING 2020-04-22 20:01:09,340 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 3702
+WARNING 2020-04-22 20:01:18,248 log 228 Not Found: /browse_histories/
+WARNING 2020-04-22 20:01:18,252 basehttp 154 "GET /browse_histories/ HTTP/1.1" 404 3714
+ERROR 2020-04-22 20:01:18,299 log 228 Internal Server Error: /info/
+Traceback (most recent call last):
+  File "/home/ubuntu/.virtualenvs/django_env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.virtualenvs/django_env/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ubuntu/.virtualenvs/django_env/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/Desktop/django预习/hfad_python/meiduo_mall/meiduo_mall/meiduo_mall/utils/view.py", line 6, in wrapper
+    if request.usr.is_authenticated:
+AttributeError: 'WSGIRequest' object has no attribute 'usr'
+ERROR 2020-04-22 20:01:18,301 basehttp 154 "GET /info/ HTTP/1.1" 500 74282
+INFO 2020-04-22 20:01:21,335 basehttp 154 "OPTIONS /login/ HTTP/1.1" 200 0
+INFO 2020-04-22 20:01:21,461 basehttp 154 "POST /login/ HTTP/1.1" 200 27
+WARNING 2020-04-22 20:01:21,912 log 228 Not Found: /carts/simple/
+WARNING 2020-04-22 20:01:21,912 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 3702
+WARNING 2020-04-22 20:01:23,931 log 228 Not Found: /browse_histories/
+WARNING 2020-04-22 20:01:23,942 basehttp 154 "GET /browse_histories/ HTTP/1.1" 404 3714
+ERROR 2020-04-22 20:01:24,008 log 228 Internal Server Error: /info/
+Traceback (most recent call last):
+  File "/home/ubuntu/.virtualenvs/django_env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.virtualenvs/django_env/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ubuntu/.virtualenvs/django_env/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/Desktop/django预习/hfad_python/meiduo_mall/meiduo_mall/meiduo_mall/utils/view.py", line 6, in wrapper
+    if request.usr.is_authenticated:
+AttributeError: 'WSGIRequest' object has no attribute 'usr'
+ERROR 2020-04-22 20:01:24,012 basehttp 154 "GET /info/ HTTP/1.1" 500 74282
+INFO 2020-04-22 20:01:31,515 basehttp 154 "POST /login/ HTTP/1.1" 200 27
+WARNING 2020-04-22 20:01:31,946 log 228 Not Found: /carts/simple/
+WARNING 2020-04-22 20:01:31,947 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 3702
+WARNING 2020-04-22 20:02:12,407 log 228 Not Found: /browse_histories/
+WARNING 2020-04-22 20:02:12,408 basehttp 154 "GET /browse_histories/ HTTP/1.1" 404 3714
+ERROR 2020-04-22 20:02:12,469 log 228 Internal Server Error: /info/
+Traceback (most recent call last):
+  File "/home/ubuntu/.virtualenvs/django_env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.virtualenvs/django_env/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ubuntu/.virtualenvs/django_env/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/Desktop/django预习/hfad_python/meiduo_mall/meiduo_mall/meiduo_mall/utils/view.py", line 6, in wrapper
+    if request.usr.is_authenticated:
+AttributeError: 'WSGIRequest' object has no attribute 'usr'
+ERROR 2020-04-22 20:02:12,470 basehttp 154 "GET /info/ HTTP/1.1" 500 74282
+WARNING 2020-04-22 20:09:58,750 log 228 Not Found: /browse_histories/
+WARNING 2020-04-22 20:09:58,762 basehttp 154 "GET /browse_histories/ HTTP/1.1" 404 3714
+ERROR 2020-04-22 20:09:58,894 log 228 Internal Server Error: /info/
+Traceback (most recent call last):
+  File "/home/ubuntu/.virtualenvs/django_env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.virtualenvs/django_env/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ubuntu/.virtualenvs/django_env/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/Desktop/django预习/hfad_python/meiduo_mall/meiduo_mall/meiduo_mall/utils/view.py", line 6, in wrapper
+    if request.usr.is_authenticated:
+AttributeError: 'WSGIRequest' object has no attribute 'usr'
+ERROR 2020-04-22 20:09:58,897 basehttp 154 "GET /info/ HTTP/1.1" 500 74312
+INFO 2020-04-22 20:13:16,410 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-22 20:13:21,816 basehttp 154 "OPTIONS /login/ HTTP/1.1" 200 0
+INFO 2020-04-22 20:13:21,952 basehttp 154 "POST /login/ HTTP/1.1" 200 27
+WARNING 2020-04-22 20:13:22,390 log 228 Not Found: /carts/simple/
+WARNING 2020-04-22 20:13:22,391 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 3714
+WARNING 2020-04-22 20:13:23,982 log 228 Not Found: /info/
+WARNING 2020-04-22 20:13:23,985 basehttp 154 "GET /info/ HTTP/1.1" 404 3690
+WARNING 2020-04-22 20:13:23,994 log 228 Not Found: /browse_histories/
+WARNING 2020-04-22 20:13:23,995 basehttp 154 "GET /browse_histories/ HTTP/1.1" 404 3726
+INFO 2020-04-22 20:15:16,049 basehttp 154 "POST /login/ HTTP/1.1" 200 27
+WARNING 2020-04-22 20:15:16,770 log 228 Not Found: /carts/simple/
+WARNING 2020-04-22 20:15:16,774 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 3714
+INFO 2020-04-22 20:16:18,763 autoreload 217 /home/ubuntu/Desktop/django预习/hfad_python/meiduo_mall/meiduo_mall/meiduo_mall/apps/users/urls.py changed, reloading.
+INFO 2020-04-22 20:16:19,567 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-22 20:18:29,388 basehttp 154 "OPTIONS /logout/ HTTP/1.1" 200 0
+INFO 2020-04-22 20:18:29,429 basehttp 154 "DELETE /logout/ HTTP/1.1" 200 27
+INFO 2020-04-22 20:18:32,804 basehttp 154 "POST /login/ HTTP/1.1" 200 27
+WARNING 2020-04-22 20:18:33,334 log 228 Not Found: /carts/simple/
+WARNING 2020-04-22 20:18:33,336 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 3702
+WARNING 2020-04-22 20:18:49,575 log 228 Not Found: /browse_histories/
+WARNING 2020-04-22 20:18:49,581 basehttp 154 "GET /browse_histories/ HTTP/1.1" 404 3714
+ERROR 2020-04-22 20:18:49,626 log 228 Internal Server Error: /info/
+Traceback (most recent call last):
+  File "/home/ubuntu/.virtualenvs/django_env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.virtualenvs/django_env/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ubuntu/.virtualenvs/django_env/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/Desktop/django预习/hfad_python/meiduo_mall/meiduo_mall/meiduo_mall/utils/view.py", line 6, in wrapper
+    if request.usr.is_authenticated:
+AttributeError: 'WSGIRequest' object has no attribute 'usr'
+ERROR 2020-04-22 20:18:49,628 basehttp 154 "GET /info/ HTTP/1.1" 500 74312
+WARNING 2020-04-22 20:19:45,550 log 228 Not Found: /browse_histories/
+WARNING 2020-04-22 20:19:45,554 basehttp 154 "GET /browse_histories/ HTTP/1.1" 404 3714
+ERROR 2020-04-22 20:19:45,608 log 228 Internal Server Error: /info/
+Traceback (most recent call last):
+  File "/home/ubuntu/.virtualenvs/django_env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.virtualenvs/django_env/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ubuntu/.virtualenvs/django_env/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/Desktop/django预习/hfad_python/meiduo_mall/meiduo_mall/meiduo_mall/utils/view.py", line 6, in wrapper
+    if request.usr.is_authenticated:
+AttributeError: 'WSGIRequest' object has no attribute 'usr'
+ERROR 2020-04-22 20:19:45,610 basehttp 154 "GET /info/ HTTP/1.1" 500 74282
+INFO 2020-04-22 20:22:06,516 autoreload 597 Watching for file changes with StatReloader
+WARNING 2020-04-22 20:22:10,033 log 228 Not Found: /browse_histories/
+WARNING 2020-04-22 20:22:10,036 basehttp 154 "GET /browse_histories/ HTTP/1.1" 404 3714
+INFO 2020-04-22 20:22:10,055 basehttp 154 "GET /info/ HTTP/1.1" 200 125
+INFO 2020-04-22 20:23:05,397 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-22 20:23:09,494 basehttp 154 "POST /login/ HTTP/1.1" 200 27
+WARNING 2020-04-22 20:23:09,955 log 228 Not Found: /carts/simple/
+WARNING 2020-04-22 20:23:09,957 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 3702
+WARNING 2020-04-22 20:23:11,890 log 228 Not Found: /browse_histories/
+WARNING 2020-04-22 20:23:11,892 basehttp 154 "GET /browse_histories/ HTTP/1.1" 404 3714
+INFO 2020-04-22 20:23:11,909 basehttp 154 "GET /info/ HTTP/1.1" 200 125

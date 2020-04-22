@@ -4,7 +4,8 @@ from django_redis import get_redis_connection
 import re
 import json
 from django.views import View
-
+import logging
+logger = logging.getLogger('django')
 from meiduo_mall.utils.view import LoginRequireMixin
 from users.models import User
 from django.http import JsonResponse, HttpResponse
@@ -126,7 +127,47 @@ class LogoutView(View):
 
 class UserInfoView(LoginRequireMixin, View):
     def get(self, request):
-        return HttpResponse('UserInfoView')
+        dict = {
+            'username':request.user.username,
+            'mobile':request.user.mobile,
+            'email':request.user.email,
+            'email_active':request.user.email_active
+        }
+        return JsonResponse({'code':0,
+                             'errmsg':'ok',
+                             'info_data':dict
+                             })
+
+
+class EmailView(View):
+    def put(self, request):
+        '''保存email到数据库， 给邮箱发送邮件'''
+        # 接受参数
+        dict = json.loads(request.body.decode())
+        email = dict.get('email')
+
+        # 检验参数， 判断该参数是否有值
+        if not email:
+            return JsonResponse({'code':400, 'errmsg':'缺少必传参数'})
+
+        # 检测email格式
+        if not re.match(r'^[a-z0-9][\w\.\-]*@[a-z0-9\-]+(\.[a-z]{2,5}){1,2}$', email):
+            return JsonResponse({'code':400, 'errmsg':'email格式不正确'})
+
+        # 赋值email字段
+        try:
+            request.user.email = email
+            request.user.save()
+        except Exception as e:
+            logger.error(e)
+            return JsonResponse({'code':400, 'errmsg':'添加邮箱失败'})
+
+        return JsonResponse({'code':0, 'errmsg':'ok'})
+
+
+
+
+
 
 
 
