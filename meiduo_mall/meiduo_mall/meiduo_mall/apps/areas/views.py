@@ -32,7 +32,7 @@ class ProvinceAreasView(View):
 
 class SubAreaView(View):
     def get(self, request, pk):
-        sub_data = cache.get('sub_data_'+pk)
+        sub_data = cache.get('sub_area_'+pk)
         if not sub_data:
             try:
                 # 查询所有市或区
@@ -49,7 +49,7 @@ class SubAreaView(View):
                     'name':parent_model.name,
                     'subs':sub_list
                 }
-                cache.set('sub_data_'+pk, dict, 3600)
+                cache.set('sub_area_'+pk, sub_data, 3600)
             except Exception as e:
                 return JsonResponse({'code':400, 'errmsg':'查询数据错误'})
         return JsonResponse({'code':0,
