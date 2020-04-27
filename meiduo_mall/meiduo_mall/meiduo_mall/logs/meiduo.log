@@ -1028,3 +1028,179 @@ WARNING 2020-04-27 08:24:02,544 basehttp 154 "GET /addresses/ HTTP/1.1" 404 4351
 INFO 2020-04-27 08:24:02,558 basehttp 154 "GET /areas/ HTTP/1.1" 200 1772
 INFO 2020-04-27 08:24:04,938 basehttp 154 "GET /areas/140000/ HTTP/1.1" 200 601
 INFO 2020-04-27 08:24:06,435 basehttp 154 "GET /areas/140100/ HTTP/1.1" 200 573
+INFO 2020-04-27 09:31:28,193 autoreload 597 Watching for file changes with StatReloader
+WARNING 2020-04-27 09:31:30,795 log 228 Not Found: /browse_histories/
+WARNING 2020-04-27 09:31:30,796 basehttp 154 "GET /browse_histories/ HTTP/1.1" 404 4372
+INFO 2020-04-27 09:31:30,801 basehttp 154 "GET /info/ HTTP/1.1" 200 142
+INFO 2020-04-27 09:31:56,563 basehttp 154 "OPTIONS /emails/ HTTP/1.1" 200 0
+INFO 2020-04-27 09:31:56,734 basehttp 154 "PUT /emails/ HTTP/1.1" 200 27
+WARNING 2020-04-27 09:37:33,519 log 228 Not Found: /browse_histories/
+WARNING 2020-04-27 09:37:33,522 basehttp 154 "GET /browse_histories/ HTTP/1.1" 404 4372
+INFO 2020-04-27 09:37:33,532 basehttp 154 "GET /info/ HTTP/1.1" 200 142
+INFO 2020-04-27 09:37:35,363 basehttp 154 "PUT /emails/ HTTP/1.1" 200 27
+INFO 2020-04-27 09:40:41,330 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-27 09:45:38,923 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-27 09:52:08,912 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-27 09:52:12,456 basehttp 154 "OPTIONS /login/ HTTP/1.1" 200 0
+INFO 2020-04-27 09:52:12,601 basehttp 154 "POST /login/ HTTP/1.1" 200 27
+WARNING 2020-04-27 09:52:13,124 log 228 Not Found: /carts/simple/
+WARNING 2020-04-27 09:52:13,126 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 4360
+WARNING 2020-04-27 09:52:15,440 log 228 Not Found: /browse_histories/
+INFO 2020-04-27 09:52:15,443 basehttp 154 "GET /info/ HTTP/1.1" 200 142
+WARNING 2020-04-27 09:52:15,449 basehttp 154 "GET /browse_histories/ HTTP/1.1" 404 4372
+INFO 2020-04-27 09:52:25,173 basehttp 154 "OPTIONS /emails/ HTTP/1.1" 200 0
+ERROR 2020-04-27 09:52:25,253 log 228 Internal Server Error: /emails/
+Traceback (most recent call last):
+  File "/home/ubuntu/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ubuntu/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ubuntu/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/ubuntu/Desktop/django预习/hfad_python/meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py", line 172, in put
+    verify_url = request.user.generate_access_token()
+  File "/home/ubuntu/Desktop/django预习/hfad_python/meiduo_mall/meiduo_mall/meiduo_mall/apps/users/models.py", line 35, in generate_access_token
+    return dev.EMAIL_VERIFY_URL + token
+NameError: name 'dev' is not defined
+ERROR 2020-04-27 09:52:25,257 basehttp 154 "PUT /emails/ HTTP/1.1" 500 88979
+INFO 2020-04-27 09:53:34,873 autoreload 217 /home/ubuntu/Desktop/django预习/hfad_python/meiduo_mall/meiduo_mall/meiduo_mall/apps/users/models.py changed, reloading.
+INFO 2020-04-27 09:53:35,335 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-27 09:53:38,674 basehttp 154 "PUT /emails/ HTTP/1.1" 200 27
+WARNING 2020-04-27 09:54:08,961 log 228 Not Found: /browse_histories/
+WARNING 2020-04-27 09:54:08,964 basehttp 154 "GET /browse_histories/ HTTP/1.1" 404 4372
+INFO 2020-04-27 09:54:08,966 basehttp 154 "GET /info/ HTTP/1.1" 200 142
+WARNING 2020-04-27 09:54:10,457 log 228 Not Found: /browse_histories/
+INFO 2020-04-27 09:54:10,458 basehttp 154 "GET /info/ HTTP/1.1" 200 142
+WARNING 2020-04-27 09:54:10,467 basehttp 154 "GET /browse_histories/ HTTP/1.1" 404 4372
+WARNING 2020-04-27 09:54:11,692 log 228 Not Found: /browse_histories/
+INFO 2020-04-27 09:54:11,698 basehttp 154 "GET /info/ HTTP/1.1" 200 142
+WARNING 2020-04-27 09:54:11,700 basehttp 154 "GET /browse_histories/ HTTP/1.1" 404 4372
+WARNING 2020-04-27 09:54:12,732 log 228 Not Found: /browse_histories/
+WARNING 2020-04-27 09:54:12,744 basehttp 154 "GET /browse_histories/ HTTP/1.1" 404 4372
+INFO 2020-04-27 09:54:12,746 basehttp 154 "GET /info/ HTTP/1.1" 200 142
+WARNING 2020-04-27 09:54:13,800 log 228 Not Found: /browse_histories/
+WARNING 2020-04-27 09:54:13,804 basehttp 154 "GET /browse_histories/ HTTP/1.1" 404 4372
+INFO 2020-04-27 09:54:13,810 basehttp 154 "GET /info/ HTTP/1.1" 200 142
+WARNING 2020-04-27 09:54:15,786 log 228 Not Found: /browse_histories/
+INFO 2020-04-27 09:54:15,788 basehttp 154 "GET /info/ HTTP/1.1" 200 142
+WARNING 2020-04-27 09:54:15,789 basehttp 154 "GET /browse_histories/ HTTP/1.1" 404 4372
+INFO 2020-04-27 09:54:24,228 basehttp 154 "GET /info/ HTTP/1.1" 200 142
+WARNING 2020-04-27 09:54:24,238 log 228 Not Found: /browse_histories/
+WARNING 2020-04-27 09:54:24,238 basehttp 154 "GET /browse_histories/ HTTP/1.1" 404 4372
+INFO 2020-04-27 09:54:25,898 basehttp 154 "GET /info/ HTTP/1.1" 200 142
+WARNING 2020-04-27 09:54:25,902 log 228 Not Found: /browse_histories/
+WARNING 2020-04-27 09:54:25,902 basehttp 154 "GET /browse_histories/ HTTP/1.1" 404 4372
+WARNING 2020-04-27 09:54:27,717 log 228 Not Found: /browse_histories/
+WARNING 2020-04-27 09:54:27,719 basehttp 154 "GET /browse_histories/ HTTP/1.1" 404 4372
+INFO 2020-04-27 09:54:27,725 basehttp 154 "GET /info/ HTTP/1.1" 200 142
+WARNING 2020-04-27 09:54:28,794 log 228 Not Found: /browse_histories/
+INFO 2020-04-27 09:54:28,800 basehttp 154 "GET /info/ HTTP/1.1" 200 142
+WARNING 2020-04-27 09:54:28,802 basehttp 154 "GET /browse_histories/ HTTP/1.1" 404 4372
+WARNING 2020-04-27 09:54:29,375 log 228 Not Found: /browse_histories/
+WARNING 2020-04-27 09:54:29,385 basehttp 154 "GET /browse_histories/ HTTP/1.1" 404 4372
+INFO 2020-04-27 09:54:29,388 basehttp 154 "GET /info/ HTTP/1.1" 200 142
+WARNING 2020-04-27 09:54:29,850 log 228 Not Found: /browse_histories/
+WARNING 2020-04-27 09:54:29,857 basehttp 154 "GET /browse_histories/ HTTP/1.1" 404 4372
+INFO 2020-04-27 09:54:29,858 basehttp 154 "GET /info/ HTTP/1.1" 200 142
+WARNING 2020-04-27 09:54:30,222 log 228 Not Found: /browse_histories/
+WARNING 2020-04-27 09:54:30,224 basehttp 154 "GET /browse_histories/ HTTP/1.1" 404 4372
+INFO 2020-04-27 09:54:30,234 basehttp 154 "GET /info/ HTTP/1.1" 200 142
+WARNING 2020-04-27 09:54:30,472 log 228 Not Found: /browse_histories/
+WARNING 2020-04-27 09:54:30,485 basehttp 154 "GET /browse_histories/ HTTP/1.1" 404 4372
+INFO 2020-04-27 09:54:30,496 basehttp 154 "GET /info/ HTTP/1.1" 200 142
+WARNING 2020-04-27 09:54:30,654 log 228 Not Found: /browse_histories/
+WARNING 2020-04-27 09:54:30,656 basehttp 154 "GET /browse_histories/ HTTP/1.1" 404 4372
+INFO 2020-04-27 09:54:30,666 basehttp 154 "GET /info/ HTTP/1.1" 200 142
+WARNING 2020-04-27 09:54:30,807 log 228 Not Found: /browse_histories/
+INFO 2020-04-27 09:54:30,810 basehttp 154 "GET /info/ HTTP/1.1" 200 142
+WARNING 2020-04-27 09:54:30,817 basehttp 154 "GET /browse_histories/ HTTP/1.1" 404 4372
+WARNING 2020-04-27 09:54:30,966 log 228 Not Found: /browse_histories/
+WARNING 2020-04-27 09:54:30,974 basehttp 154 "GET /browse_histories/ HTTP/1.1" 404 4372
+INFO 2020-04-27 09:54:30,979 basehttp 154 "GET /info/ HTTP/1.1" 200 142
+WARNING 2020-04-27 09:54:31,341 log 228 Not Found: /browse_histories/
+WARNING 2020-04-27 09:54:31,348 basehttp 154 "GET /browse_histories/ HTTP/1.1" 404 4372
+INFO 2020-04-27 09:54:31,344 basehttp 154 "GET /info/ HTTP/1.1" 200 142
+WARNING 2020-04-27 09:54:31,795 log 228 Not Found: /browse_histories/
+WARNING 2020-04-27 09:54:31,802 basehttp 154 "GET /browse_histories/ HTTP/1.1" 404 4372
+INFO 2020-04-27 09:54:31,809 basehttp 154 "GET /info/ HTTP/1.1" 200 142
+WARNING 2020-04-27 09:56:18,187 log 228 Not Found: /browse_histories/
+WARNING 2020-04-27 09:56:18,190 basehttp 154 "GET /browse_histories/ HTTP/1.1" 404 4372
+INFO 2020-04-27 09:56:18,197 basehttp 154 "GET /info/ HTTP/1.1" 200 142
+WARNING 2020-04-27 09:56:20,346 log 228 Not Found: /browse_histories/
+WARNING 2020-04-27 09:56:20,348 basehttp 154 "GET /browse_histories/ HTTP/1.1" 404 4372
+INFO 2020-04-27 09:56:20,353 basehttp 154 "GET /info/ HTTP/1.1" 200 142
+WARNING 2020-04-27 09:56:21,019 log 228 Not Found: /browse_histories/
+WARNING 2020-04-27 09:56:21,025 basehttp 154 "GET /browse_histories/ HTTP/1.1" 404 4372
+INFO 2020-04-27 09:56:21,026 basehttp 154 "GET /info/ HTTP/1.1" 200 142
+WARNING 2020-04-27 09:56:21,662 log 228 Not Found: /browse_histories/
+WARNING 2020-04-27 09:56:21,666 basehttp 154 "GET /browse_histories/ HTTP/1.1" 404 4372
+INFO 2020-04-27 09:56:21,675 basehttp 154 "GET /info/ HTTP/1.1" 200 142
+INFO 2020-04-27 09:58:07,530 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-27 10:00:13,087 basehttp 154 "OPTIONS /emails/verification/?token=eyJhbGciOiJIUzUxMiIsImlhdCI6MTU4Nzk4MTIxOCwiZXhwIjoxNTg3OTgzMDE4fQ.eyJ1c2VyX2lkIjoyLCJlbWFpbCI6IjEwMDc1NDUxMDNAcXEuY29tIn0.BOjwzUFkNOeVz-UG-GXUZmDsEll0kuKCvLiXx19HxkfMh16rBAxQlaAsb4tbvvK5cXAuMw_Q697FgUMbim0ung HTTP/1.1" 200 0
+ERROR 2020-04-27 10:00:26,133 log 228 Internal Server Error: /emails/verification/
+Traceback (most recent call last):
+  File "/home/ubuntu/.virtualenvs/django_env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.virtualenvs/django_env/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ubuntu/.virtualenvs/django_env/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/.virtualenvs/django_env/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ubuntu/.virtualenvs/django_env/lib/python3.6/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/ubuntu/Desktop/django预习/hfad_python/meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py", line 184, in put
+    user = check_access_token(token)
+  File "/home/ubuntu/Desktop/django预习/hfad_python/meiduo_mall/meiduo_mall/meiduo_mall/apps/oauth/utils.py", line 20, in check_access_token
+    return data['openid']
+KeyError: 'openid'
+INFO 2020-04-27 10:00:43,396 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-27 10:00:47,130 basehttp 154 "POST /login/ HTTP/1.1" 200 27
+WARNING 2020-04-27 10:00:47,718 log 228 Not Found: /carts/simple/
+WARNING 2020-04-27 10:00:47,719 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 4360
+WARNING 2020-04-27 10:00:48,865 log 228 Not Found: /browse_histories/
+INFO 2020-04-27 10:00:48,869 basehttp 154 "GET /info/ HTTP/1.1" 200 142
+WARNING 2020-04-27 10:00:48,876 basehttp 154 "GET /browse_histories/ HTTP/1.1" 404 4372
+WARNING 2020-04-27 10:00:50,327 log 228 Not Found: /browse_histories/
+WARNING 2020-04-27 10:00:50,328 basehttp 154 "GET /browse_histories/ HTTP/1.1" 404 4372
+INFO 2020-04-27 10:00:50,335 basehttp 154 "GET /info/ HTTP/1.1" 200 142
+INFO 2020-04-27 10:02:43,771 basehttp 154 "OPTIONS /emails/ HTTP/1.1" 200 0
+INFO 2020-04-27 10:02:43,954 basehttp 154 "PUT /emails/ HTTP/1.1" 200 27
+INFO 2020-04-27 10:02:56,208 basehttp 154 "OPTIONS /emails/verification/?token=eyJhbGciOiJIUzUxMiIsImlhdCI6MTU4Nzk4MTc2MywiZXhwIjoxNTg3OTgzNTYzfQ.eyJ1c2VyX2lkIjoyLCJlbWFpbCI6IjEwMDc1NDUxMDNAcXEuY29tIn0.ZrzU5nEZR4Sq2lT5nV9oe22mOMWyHnwKmKF46ylWoEcVKSNSmyw4E2J1BPpgcPWtlDJvTrWW8h3EieNGPlmHRg HTTP/1.1" 200 0
+ERROR 2020-04-27 10:02:56,310 log 228 Internal Server Error: /emails/verification/
+Traceback (most recent call last):
+  File "/home/ubuntu/.virtualenvs/django_env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.virtualenvs/django_env/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ubuntu/.virtualenvs/django_env/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/.virtualenvs/django_env/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ubuntu/.virtualenvs/django_env/lib/python3.6/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/ubuntu/Desktop/django预习/hfad_python/meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py", line 184, in put
+    user = check_access_token(token)
+  File "/home/ubuntu/Desktop/django预习/hfad_python/meiduo_mall/meiduo_mall/meiduo_mall/apps/oauth/utils.py", line 20, in check_access_token
+    return data['openid']
+KeyError: 'openid'
+ERROR 2020-04-27 10:02:56,313 basehttp 154 "PUT /emails/verification/?token=eyJhbGciOiJIUzUxMiIsImlhdCI6MTU4Nzk4MTc2MywiZXhwIjoxNTg3OTgzNTYzfQ.eyJ1c2VyX2lkIjoyLCJlbWFpbCI6IjEwMDc1NDUxMDNAcXEuY29tIn0.ZrzU5nEZR4Sq2lT5nV9oe22mOMWyHnwKmKF46ylWoEcVKSNSmyw4E2J1BPpgcPWtlDJvTrWW8h3EieNGPlmHRg HTTP/1.1" 500 88013
+WARNING 2020-04-27 10:03:03,581 log 228 Not Found: /carts/simple/
+WARNING 2020-04-27 10:03:03,583 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 4360
+WARNING 2020-04-27 10:03:07,190 log 228 Not Found: /browse_histories/
+WARNING 2020-04-27 10:03:07,191 basehttp 154 "GET /browse_histories/ HTTP/1.1" 404 4372
+INFO 2020-04-27 10:03:07,195 basehttp 154 "GET /info/ HTTP/1.1" 200 142
+WARNING 2020-04-27 10:03:09,090 log 228 Not Found: /browse_histories/
+WARNING 2020-04-27 10:03:09,097 basehttp 154 "GET /browse_histories/ HTTP/1.1" 404 4372
+INFO 2020-04-27 10:03:09,104 basehttp 154 "GET /info/ HTTP/1.1" 200 142
+INFO 2020-04-27 10:08:43,378 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-27 10:08:47,514 basehttp 154 "PUT /emails/ HTTP/1.1" 200 27
+INFO 2020-04-27 10:09:01,671 basehttp 154 "OPTIONS /emails/verification/?token=eyJhbGciOiJIUzUxMiIsImlhdCI6MTU4Nzk4MjEyNywiZXhwIjoxNTg3OTgzOTI3fQ.eyJ1c2VyX2lkIjoyLCJlbWFpbCI6IjEwMDc1NDUxMDNAcXEuY29tIn0.CZ7Pp6siOsuvEW3PK7d0Xna0A51OOkUNpQCOInAeh_Pl-v69SOd0yrgyO66FK_Aiyxly1rBLGt7njzEO2YZsJw HTTP/1.1" 200 0
+INFO 2020-04-27 10:09:01,707 basehttp 154 "PUT /emails/verification/?token=eyJhbGciOiJIUzUxMiIsImlhdCI6MTU4Nzk4MjEyNywiZXhwIjoxNTg3OTgzOTI3fQ.eyJ1c2VyX2lkIjoyLCJlbWFpbCI6IjEwMDc1NDUxMDNAcXEuY29tIn0.CZ7Pp6siOsuvEW3PK7d0Xna0A51OOkUNpQCOInAeh_Pl-v69SOd0yrgyO66FK_Aiyxly1rBLGt7njzEO2YZsJw HTTP/1.1" 200 27
+INFO 2020-04-27 10:09:05,785 basehttp 154 "GET /info/ HTTP/1.1" 200 141
+WARNING 2020-04-27 10:09:05,804 log 228 Not Found: /browse_histories/
+WARNING 2020-04-27 10:09:05,805 basehttp 154 "GET /browse_histories/ HTTP/1.1" 404 4372

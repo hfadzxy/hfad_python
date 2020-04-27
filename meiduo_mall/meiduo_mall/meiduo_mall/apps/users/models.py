@@ -3,8 +3,8 @@ from django.db import models
 
 # Create your models here.
 from itsdangerous import TimedJSONWebSignatureSerializer, BadData
-
-from meiduo_mall.settings import dev
+# from meiduo_mall.settings import dev
+from django.conf import settings
 
 
 class User(AbstractUser):
@@ -26,17 +26,17 @@ class User(AbstractUser):
 
 
     def generate_access_token(self):
-        obj = TimedJSONWebSignatureSerializer(dev.SECRET_KEY, expires_in=1800)
+        obj = TimedJSONWebSignatureSerializer(settings.SECRET_KEY, expires_in=1800)
         dict = {
             'user_id':self.id,
             'email':self.email
         }
         token = obj.dumps(dict).decode()
-        return dev.EMAIL_VERIFY_URL + token
+        return settings.EMAIL_VERIFY_URL + token
 
     @staticmethod
     def check_verify_token(token):
-        obj = TimedJSONWebSignatureSerializer(dev.SECRET_KEY, expires_in=1800)
+        obj = TimedJSONWebSignatureSerializer(settings.SECRET_KEY, expires_in=1800)
         try:
             dict = obj.loads(token)
         except BadData:

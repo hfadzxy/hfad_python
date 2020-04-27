@@ -6,7 +6,6 @@ import re
 import json
 from django.views import View
 import logging
-
 from oauth.utils import check_access_token
 from users.utils import generate_access_token
 
@@ -181,7 +180,7 @@ class VerifyEmailView(View):
         token = request.GET.get('token')
         if not token:
             return JsonResponse({'code':400, 'errmsg':'token为空  '})
-        user = check_access_token(token)
+        user = User.check_verify_token(token)
         if not user:
             return JsonResponse({'code':400, 'errmsg':'token错误'})
         try:
