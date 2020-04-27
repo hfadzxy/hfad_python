@@ -50,6 +50,7 @@ INSTALLED_APPS = [
     'corsheaders',
     'verifications',
     'oauth',
+    'areas',
 ]
 
 MIDDLEWARE = [
@@ -246,3 +247,6 @@ EMAIL_HOST_USER = 'starmoon_zhang@163.com'
 EMAIL_HOST_PASSWORD = 'KSWURPCZTEPVYDUA'
 # 收件人看到的发件人
 EMAIL_FROM = '张新悦<starmoon_zhang@163.com>'
+
+# 邮箱验证链接
+EMAIL_VERIFY_URL = 'http://www.meiduo.site:8080/success_verify_email.html?token='

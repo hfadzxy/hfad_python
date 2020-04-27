@@ -1,6 +1,9 @@
 from django.contrib.auth.backends import ModelBackend
 import re
+
+from meiduo_mall.settings import dev
 from users.models import User
+from itsdangerous import TimedJSONWebSignatureSerializer
 
 
 def get_user_by_account(account):
@@ -25,4 +28,14 @@ class UsernameMobileAuthentication(ModelBackend):
         if user and user.check_password(password):
             return user
 
+
+
+def generate_access_token(user):
+    obj = TimedJSONWebSignatureSerializer(dev.SECRET_KEY, expires_in=1800)
+    dict = {
+        'user_id':user.id,
+        'email':user.email
+    }
+    token = obj.dumps(dict).decode()
+    return dev.EMAIL_VERIFY_URL + obj
 

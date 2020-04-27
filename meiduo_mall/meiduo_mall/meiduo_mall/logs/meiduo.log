@@ -774,3 +774,150 @@ WARNING 2020-04-22 20:23:09,957 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 3
 WARNING 2020-04-22 20:23:11,890 log 228 Not Found: /browse_histories/
 WARNING 2020-04-22 20:23:11,892 basehttp 154 "GET /browse_histories/ HTTP/1.1" 404 3714
 INFO 2020-04-22 20:23:11,909 basehttp 154 "GET /info/ HTTP/1.1" 200 125
+INFO 2020-04-27 04:10:43,023 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-27 04:11:11,140 autoreload 597 Watching for file changes with StatReloader
+WARNING 2020-04-27 04:11:18,217 log 228 Not Found: /carts/simple/
+WARNING 2020-04-27 04:11:18,221 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 3702
+INFO 2020-04-27 04:11:23,903 basehttp 154 "OPTIONS /login/ HTTP/1.1" 200 0
+INFO 2020-04-27 04:11:24,051 basehttp 154 "POST /login/ HTTP/1.1" 200 27
+WARNING 2020-04-27 04:11:24,485 log 228 Not Found: /carts/simple/
+WARNING 2020-04-27 04:11:24,487 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 3702
+WARNING 2020-04-27 04:11:27,062 log 228 Not Found: /browse_histories/
+INFO 2020-04-27 04:11:27,084 basehttp 154 "GET /info/ HTTP/1.1" 200 125
+WARNING 2020-04-27 04:11:27,096 basehttp 154 "GET /browse_histories/ HTTP/1.1" 404 3714
+INFO 2020-04-27 04:11:56,283 basehttp 154 "OPTIONS /emails/ HTTP/1.1" 200 0
+WARNING 2020-04-27 04:11:56,304 log 228 Not Found: /emails/
+WARNING 2020-04-27 04:11:56,304 basehttp 154 "PUT /emails/ HTTP/1.1" 404 3684
+INFO 2020-04-27 04:13:22,477 autoreload 217 /home/ubuntu/Desktop/django预习/hfad_python/meiduo_mall/meiduo_mall/meiduo_mall/apps/users/urls.py changed, reloading.
+INFO 2020-04-27 04:13:23,788 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-27 04:13:49,050 autoreload 597 Watching for file changes with StatReloader
+ERROR 2020-04-27 04:14:25,899 log 228 Internal Server Error: /emails/
+Traceback (most recent call last):
+  File "/home/ubuntu/.virtualenvs/django_env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.virtualenvs/django_env/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ubuntu/.virtualenvs/django_env/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/.virtualenvs/django_env/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ubuntu/.virtualenvs/django_env/lib/python3.6/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/ubuntu/Desktop/django预习/hfad_python/meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py", line 171, in put
+    verify_url = request.user.generate_access_token()
+  File "/home/ubuntu/Desktop/django预习/hfad_python/meiduo_mall/meiduo_mall/meiduo_mall/apps/users/models.py", line 35, in generate_access_token
+    return dev.EMAIL_VERIFY_URL + obj
+TypeError: must be str, not TimedJSONWebSignatureSerializer
+INFO 2020-04-27 04:19:49,726 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-27 04:20:21,453 autoreload 597 Watching for file changes with StatReloader
+WARNING 2020-04-27 04:20:29,468 log 228 Not Found: /carts/simple/
+WARNING 2020-04-27 04:20:29,471 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 3858
+WARNING 2020-04-27 04:20:33,003 log 228 Not Found: /browse_histories/
+WARNING 2020-04-27 04:20:33,012 basehttp 154 "GET /browse_histories/ HTTP/1.1" 404 3870
+INFO 2020-04-27 04:20:33,016 basehttp 154 "GET /info/ HTTP/1.1" 200 151
+INFO 2020-04-27 04:20:52,932 basehttp 154 "OPTIONS /emails/ HTTP/1.1" 200 0
+ERROR 2020-04-27 04:20:53,005 log 228 Internal Server Error: /emails/
+Traceback (most recent call last):
+  File "/home/ubuntu/.virtualenvs/django_env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.virtualenvs/django_env/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ubuntu/.virtualenvs/django_env/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/.virtualenvs/django_env/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ubuntu/.virtualenvs/django_env/lib/python3.6/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/ubuntu/Desktop/django预习/hfad_python/meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py", line 171, in put
+    verify_url = request.user.generate_access_token()
+  File "/home/ubuntu/Desktop/django预习/hfad_python/meiduo_mall/meiduo_mall/meiduo_mall/apps/users/models.py", line 35, in generate_access_token
+    return dev.EMAIL_VERIFY_URL + obj
+TypeError: must be str, not TimedJSONWebSignatureSerializer
+ERROR 2020-04-27 04:20:53,006 basehttp 154 "PUT /emails/ HTTP/1.1" 500 85486
+INFO 2020-04-27 04:23:12,036 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-27 04:23:13,257 basehttp 154 "OPTIONS /login/ HTTP/1.1" 200 0
+INFO 2020-04-27 04:23:13,375 basehttp 154 "POST /login/ HTTP/1.1" 200 27
+WARNING 2020-04-27 04:23:13,850 log 228 Not Found: /carts/simple/
+WARNING 2020-04-27 04:23:13,852 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 3858
+WARNING 2020-04-27 04:23:17,114 log 228 Not Found: /browse_histories/
+INFO 2020-04-27 04:23:17,115 basehttp 154 "GET /info/ HTTP/1.1" 200 151
+WARNING 2020-04-27 04:23:17,127 basehttp 154 "GET /browse_histories/ HTTP/1.1" 404 3870
+INFO 2020-04-27 04:50:37,898 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-27 04:50:41,328 basehttp 154 "OPTIONS /login/ HTTP/1.1" 200 0
+INFO 2020-04-27 04:50:41,443 basehttp 154 "POST /login/ HTTP/1.1" 200 27
+WARNING 2020-04-27 04:50:41,910 log 228 Not Found: /carts/simple/
+WARNING 2020-04-27 04:50:41,915 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 4027
+INFO 2020-04-27 04:50:43,332 basehttp 154 "GET /info/ HTTP/1.1" 200 151
+WARNING 2020-04-27 04:50:43,337 log 228 Not Found: /browse_histories/
+WARNING 2020-04-27 04:50:43,338 basehttp 154 "GET /browse_histories/ HTTP/1.1" 404 4039
+INFO 2020-04-27 04:51:28,172 basehttp 154 "OPTIONS /emails/ HTTP/1.1" 200 0
+ERROR 2020-04-27 04:51:28,242 log 228 Internal Server Error: /emails/
+Traceback (most recent call last):
+  File "/home/ubuntu/.virtualenvs/django_env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.virtualenvs/django_env/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ubuntu/.virtualenvs/django_env/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/.virtualenvs/django_env/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ubuntu/.virtualenvs/django_env/lib/python3.6/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/ubuntu/Desktop/django预习/hfad_python/meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py", line 172, in put
+    verify_url = request.user.generate_access_token()
+  File "/home/ubuntu/Desktop/django预习/hfad_python/meiduo_mall/meiduo_mall/meiduo_mall/apps/users/models.py", line 35, in generate_access_token
+    return dev.EMAIL_VERIFY_URL + obj
+TypeError: must be str, not TimedJSONWebSignatureSerializer
+ERROR 2020-04-27 04:51:28,246 basehttp 154 "PUT /emails/ HTTP/1.1" 500 89031
+INFO 2020-04-27 04:51:55,878 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-27 04:54:00,776 autoreload 597 Watching for file changes with StatReloader
+ERROR 2020-04-27 04:54:04,661 log 228 Internal Server Error: /emails/
+Traceback (most recent call last):
+  File "/home/ubuntu/.virtualenvs/django_env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.virtualenvs/django_env/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ubuntu/.virtualenvs/django_env/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/.virtualenvs/django_env/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ubuntu/.virtualenvs/django_env/lib/python3.6/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/ubuntu/Desktop/django预习/hfad_python/meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py", line 173, in put
+    send_verify_email.dealy(email, verify_url)
+  File "/home/ubuntu/.virtualenvs/django_env/lib/python3.6/site-packages/celery/local.py", line 146, in __getattr__
+    return getattr(self._get_current_object(), name)
+AttributeError: 'send_verify_email' object has no attribute 'dealy'
+ERROR 2020-04-27 04:54:04,663 basehttp 154 "PUT /emails/ HTTP/1.1" 500 88878
+INFO 2020-04-27 04:55:35,399 autoreload 597 Watching for file changes with StatReloader
+ERROR 2020-04-27 04:55:38,968 log 228 Internal Server Error: /emails/
+Traceback (most recent call last):
+  File "/home/ubuntu/.virtualenvs/django_env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.virtualenvs/django_env/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ubuntu/.virtualenvs/django_env/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/.virtualenvs/django_env/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ubuntu/.virtualenvs/django_env/lib/python3.6/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/ubuntu/Desktop/django预习/hfad_python/meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py", line 173, in put
+    send_verify_email.dealy(email, verify_url)
+  File "/home/ubuntu/.virtualenvs/django_env/lib/python3.6/site-packages/celery/local.py", line 146, in __getattr__
+    return getattr(self._get_current_object(), name)
+AttributeError: 'send_verify_email' object has no attribute 'dealy'
+ERROR 2020-04-27 04:55:38,971 basehttp 154 "PUT /emails/ HTTP/1.1" 500 88878
+INFO 2020-04-27 04:56:41,241 autoreload 217 /home/ubuntu/Desktop/django预习/hfad_python/meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-04-27 04:56:41,838 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-27 04:56:45,354 basehttp 154 "PUT /emails/ HTTP/1.1" 200 27
+INFO 2020-04-27 04:59:47,788 autoreload 217 /home/ubuntu/Desktop/django预习/hfad_python/meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-04-27 04:59:48,269 autoreload 597 Watching for file changes with StatReloader
+WARNING 2020-04-27 04:59:53,408 log 228 Not Found: /browse_histories/
+WARNING 2020-04-27 04:59:53,409 basehttp 154 "GET /browse_histories/ HTTP/1.1" 404 4039
+INFO 2020-04-27 04:59:53,421 basehttp 154 "GET /info/ HTTP/1.1" 200 151
+WARNING 2020-04-27 05:01:38,948 log 228 Not Found: /browse_histories/
+WARNING 2020-04-27 05:01:38,957 basehttp 154 "GET /browse_histories/ HTTP/1.1" 404 4039
+INFO 2020-04-27 05:01:38,966 basehttp 154 "GET /info/ HTTP/1.1" 200 151
+INFO 2020-04-27 05:01:57,577 basehttp 154 "OPTIONS /emails/ HTTP/1.1" 200 0
+INFO 2020-04-27 05:01:57,715 basehttp 154 "PUT /emails/ HTTP/1.1" 200 27

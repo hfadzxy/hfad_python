@@ -1,10 +1,15 @@
 from django.contrib.auth import login, authenticate, logout
+from celery_tasks.email.tasks import send_verify_email
 from django.shortcuts import render
 from django_redis import get_redis_connection
 import re
 import json
 from django.views import View
 import logging
+
+from oauth.utils import check_access_token
+from users.utils import generate_access_token
+
 logger = logging.getLogger('django')
 from meiduo_mall.utils.view import LoginRequireMixin
 from users.models import User
@@ -162,8 +167,29 @@ class EmailView(View):
             logger.error(e)
             return JsonResponse({'code':400, 'errmsg':'添加邮箱失败'})
 
+        # 给注册有邮箱发送激活邮件
+        # verify_url = generate_access_token(request.user)
+        verify_url = request.user.generate_access_token()
+        send_verify_email.delay(email, verify_url)
+
         return JsonResponse({'code':0, 'errmsg':'ok'})
 
+
+class VerifyEmailView(View):
+    def put(self, request):
+        '''获取前端传入token解密， 获取user， 更改用户email_active'''
+        token = request.GET.get('token')
+        if not token:
+            return JsonResponse({'code':400, 'errmsg':'token为空  '})
+        user = check_access_token(token)
+        if not user:
+            return JsonResponse({'code':400, 'errmsg':'token错误'})
+        try:
+            user.email_active = True
+            user.save()
+        except Exception as e:
+            return JsonResponse({'code':400, 'errmsg':'保存数据库错误'})
+        return JsonResponse({'code':0, 'errmsg':'ok'})
 
 
 
