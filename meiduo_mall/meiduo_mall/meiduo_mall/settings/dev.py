@@ -51,7 +51,8 @@ INSTALLED_APPS = [
     'verifications',
     'oauth',
     'areas',
-    'contents'
+    'contents',
+    'goods',
 ]
 
 MIDDLEWARE = [
