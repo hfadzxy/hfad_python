@@ -16,7 +16,7 @@ class User(AbstractUser):
     # 增加一个字段， email_active 用于邮箱是否激活
     email_active = models.BooleanField(default=False, verbose_name='邮箱激活')
 
-    # 新增默认地址 todo
+    # 新增默认地址
     default_address = models.ForeignKey('Address',
                                         related_name='users',
                                         null=True,
