@@ -6,6 +6,8 @@ import re
 import json
 from django.views import View
 import logging
+
+from goods.models import SKU
 from oauth.utils import check_access_token
 from users.utils import generate_access_token
 
@@ -435,6 +437,49 @@ class ChangePasswordView(LoginRequireMixin, View):
         response.delete_cookie('username')
         return response
 
+class UserBrowseHistory(View):
+    def post(self, request):
+        # 接受参数
+        json_dict = json.loads(request.body.decode())
+        sku_id = json_dict.get('sku_id')
+        # 判断sku_id
+        try:
+            SKU.objects.get(id=sku_id)
+        except Exception as e:
+            return JsonResponse({'code':400, 'errmsg':'sku_id错误'})
+        # 创建redis链接对象
+        redis_conn = get_redis_connection('history')
+        # 建立管道
+        pl = redis_conn.pipeline()
+        user_id = request.user.id
+        # 去重， pl.lrem
+        pl.lrem('history_%s' % user_id, 0, sku_id)
+        # 储存
+        pl.lpush('history_%s' % user_id, sku_id)
+        # 截取前 5 个
+        pl.ltrim('history_%s' % user_id, 0, 4)
+        # 执行管道
+        pl.execute()
+        # 返回响应
+        return JsonResponse({'code':400, 'errmsg':'ok'})
+
+    def get(self, request):
+        # 获取redis 中的sku_id 信息
+        redis_conn = get_redis_connection('history')
+        sku_ids = redis_conn.lrange('history_%s' % request.user.id, 0, -1)
+        # 根据sku_id 查询对应的信息
+        skus = []
+        for sku_id in sku_ids:
+            sku = SKU.objects.get(id=sku_id)
+            skus.append({
+                'id':sku.id,
+                'name':sku.name,
+                'default_image_url':sku.default_image_url,
+                'price':sku.price
+            })
+        return JsonResponse({'code':0,
+                             'errmsg':'ok',
+                             'skus':skus})
 
 
 

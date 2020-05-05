@@ -54,6 +54,7 @@ INSTALLED_APPS = [
     'contents',
     'goods',
     'haystack',
+    'carts',
 ]
 
 MIDDLEWARE = [
@@ -165,6 +166,21 @@ CACHES = {
         'LOCATION':'redis://127.0.0.1:6379/2',
         'OPTIONS':{
             'CLINENT_CLASS':'django_redis.client.DefaultClient',
+        }
+    },
+
+    "history": {  # 用户浏览记录
+        "BACKEND": "django_redis.cache.RedisCache",
+        "LOCATION": "redis://127.0.0.1:6379/3",
+        "OPTIONS": {
+            "CLIENT_CLASS": "django_redis.client.DefaultClient",
+        }
+    },
+    "carts":{
+    "BACKEND": "django_redis.cache.RedisCache",
+        "LOCATION": "redis://127.0.0.1:6379/5",
+        "OPTIONS": {
+            "CLIENT_CLASS": "django_redis.client.DefaultClient",
         }
     }
 }
@@ -281,3 +297,4 @@ HAYSTACK_SIGNAL_PROCESSOR = 'haystack.signals.RealtimeSignalProcessor'
 
 # 可以在 dev.py 中添加如下代码, 用于决定每页显示数据条数:
 HAYSTACK_SEARCH_RESULTS_PER_PAGE = 5
+
