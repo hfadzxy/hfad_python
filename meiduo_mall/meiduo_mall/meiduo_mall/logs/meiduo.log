@@ -2408,3 +2408,135 @@ WARNING 2020-05-05 14:21:38,087 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 6
 INFO 2020-05-05 14:22:16,178 autoreload 597 Watching for file changes with StatReloader
 INFO 2020-05-05 14:22:21,370 basehttp 154 "GET /info/ HTTP/1.1" 200 141
 INFO 2020-05-05 14:22:21,389 basehttp 154 "GET /browse_histories/ HTTP/1.1" 200 1168
+INFO 2020-05-06 08:47:25,169 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-05-06 08:47:29,667 basehttp 154 "GET /info/ HTTP/1.1" 200 141
+INFO 2020-05-06 08:47:29,670 basehttp 154 "GET /browse_histories/ HTTP/1.1" 200 39
+INFO 2020-05-06 08:47:32,598 basehttp 154 "GET /info/ HTTP/1.1" 200 141
+INFO 2020-05-06 08:47:32,604 basehttp 154 "GET /browse_histories/ HTTP/1.1" 200 39
+INFO 2020-05-06 08:47:51,571 basehttp 154 "OPTIONS /logout/ HTTP/1.1" 200 0
+INFO 2020-05-06 08:47:51,582 basehttp 154 "DELETE /logout/ HTTP/1.1" 200 27
+INFO 2020-05-06 08:47:53,322 basehttp 154 "OPTIONS /login/ HTTP/1.1" 200 0
+INFO 2020-05-06 08:47:53,469 basehttp 154 "POST /login/ HTTP/1.1" 200 27
+WARNING 2020-05-06 08:47:54,175 log 228 Not Found: /carts/simple/
+WARNING 2020-05-06 08:47:54,176 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 6440
+INFO 2020-05-06 08:47:57,190 basehttp 154 "GET /carts/ HTTP/1.1" 200 44
+INFO 2020-05-06 08:47:59,714 basehttp 154 "GET /info/ HTTP/1.1" 200 141
+INFO 2020-05-06 08:47:59,716 basehttp 154 "GET /browse_histories/ HTTP/1.1" 200 39
+INFO 2020-05-06 08:49:19,969 basehttp 154 "GET /areas/ HTTP/1.1" 200 1772
+INFO 2020-05-06 08:49:19,997 basehttp 154 "GET /addresses/ HTTP/1.1" 200 280
+WARNING 2020-05-06 08:49:23,619 log 228 Not Found: /carts/simple/
+WARNING 2020-05-06 08:49:23,619 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 6440
+WARNING 2020-05-06 08:49:25,977 log 228 Not Found: /carts/simple/
+WARNING 2020-05-06 08:49:25,981 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 6440
+INFO 2020-05-06 08:49:25,991 basehttp 154 "GET /list/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 200 1561
+INFO 2020-05-06 08:49:26,009 basehttp 154 "GET /hot/115/ HTTP/1.1" 200 582
+INFO 2020-05-06 08:49:27,236 basehttp 154 "OPTIONS /browse_histories/ HTTP/1.1" 200 0
+WARNING 2020-05-06 08:49:27,253 log 228 Not Found: /carts/simple/
+WARNING 2020-05-06 08:49:27,256 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 6440
+INFO 2020-05-06 08:49:27,285 basehttp 154 "POST /browse_histories/ HTTP/1.1" 200 29
+WARNING 2020-05-06 08:49:28,946 log 228 Not Found: /carts/simple/
+WARNING 2020-05-06 08:49:28,950 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 6440
+INFO 2020-05-06 08:49:28,968 basehttp 154 "POST /browse_histories/ HTTP/1.1" 200 29
+WARNING 2020-05-06 08:49:29,455 log 228 Not Found: /carts/simple/
+WARNING 2020-05-06 08:49:29,458 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 6440
+INFO 2020-05-06 08:49:29,479 basehttp 154 "POST /browse_histories/ HTTP/1.1" 200 29
+WARNING 2020-05-06 08:49:29,854 log 228 Not Found: /carts/simple/
+WARNING 2020-05-06 08:49:29,855 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 6440
+INFO 2020-05-06 08:49:29,860 basehttp 154 "POST /browse_histories/ HTTP/1.1" 200 29
+WARNING 2020-05-06 08:49:30,147 log 228 Not Found: /carts/simple/
+INFO 2020-05-06 08:49:30,159 basehttp 154 "POST /browse_histories/ HTTP/1.1" 200 29
+WARNING 2020-05-06 08:49:30,164 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 6440
+WARNING 2020-05-06 08:49:30,749 log 228 Not Found: /carts/simple/
+INFO 2020-05-06 08:49:30,749 basehttp 154 "POST /browse_histories/ HTTP/1.1" 200 29
+WARNING 2020-05-06 08:49:30,750 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 6440
+INFO 2020-05-06 08:49:33,246 basehttp 154 "GET /info/ HTTP/1.1" 200 141
+INFO 2020-05-06 08:49:33,277 basehttp 154 "GET /browse_histories/ HTTP/1.1" 200 1451
+INFO 2020-05-06 08:49:45,092 basehttp 154 "GET /carts/ HTTP/1.1" 200 44
+INFO 2020-05-06 08:49:48,990 basehttp 154 "GET /info/ HTTP/1.1" 200 141
+INFO 2020-05-06 08:49:49,020 basehttp 154 "GET /browse_histories/ HTTP/1.1" 200 1451
+WARNING 2020-05-06 08:49:50,537 log 228 Not Found: /carts/simple/
+INFO 2020-05-06 08:49:50,546 basehttp 154 "POST /browse_histories/ HTTP/1.1" 200 29
+WARNING 2020-05-06 08:49:50,551 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 6440
+INFO 2020-05-06 08:49:52,042 basehttp 154 "OPTIONS /carts/ HTTP/1.1" 200 0
+INFO 2020-05-06 08:49:52,055 basehttp 154 "POST /carts/ HTTP/1.1" 200 67
+ERROR 2020-05-06 08:49:56,290 log 228 Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "/home/ubuntu/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ubuntu/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ubuntu/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/ubuntu/Desktop/django预习/hfad_python/meiduo_mall/meiduo_mall/meiduo_mall/apps/carts/views.py", line 108, in get
+    'price':sku.prince,
+AttributeError: 'SKU' object has no attribute 'prince'
+ERROR 2020-05-06 08:49:56,291 basehttp 154 "GET /carts/ HTTP/1.1" 500 85466
+ERROR 2020-05-06 08:49:59,840 log 228 Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "/home/ubuntu/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ubuntu/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ubuntu/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/ubuntu/Desktop/django预习/hfad_python/meiduo_mall/meiduo_mall/meiduo_mall/apps/carts/views.py", line 108, in get
+    'price':sku.prince,
+AttributeError: 'SKU' object has no attribute 'prince'
+ERROR 2020-05-06 08:49:59,841 basehttp 154 "GET /carts/ HTTP/1.1" 500 85466
+INFO 2020-05-06 08:51:00,123 autoreload 597 Watching for file changes with StatReloader
+ERROR 2020-05-06 08:51:01,783 log 228 Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "/home/ubuntu/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ubuntu/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ubuntu/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/ubuntu/Desktop/django预习/hfad_python/meiduo_mall/meiduo_mall/meiduo_mall/apps/carts/views.py", line 110, in get
+    'amount':(sku.price * cart_dict.get(sku.id).get('count')),
+TypeError: can't multiply sequence by non-int of type 'decimal.Decimal'
+ERROR 2020-05-06 08:51:01,784 basehttp 154 "GET /carts/ HTTP/1.1" 500 85384
+INFO 2020-05-06 08:51:05,036 basehttp 154 "GET /info/ HTTP/1.1" 200 141
+INFO 2020-05-06 08:51:05,066 basehttp 154 "GET /browse_histories/ HTTP/1.1" 200 1451
+WARNING 2020-05-06 08:51:06,224 log 228 Not Found: /carts/simple/
+WARNING 2020-05-06 08:51:06,225 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 6440
+INFO 2020-05-06 08:51:06,241 basehttp 154 "POST /browse_histories/ HTTP/1.1" 200 29
+INFO 2020-05-06 08:51:07,635 basehttp 154 "POST /carts/ HTTP/1.1" 200 67
+ERROR 2020-05-06 08:51:10,370 log 228 Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "/home/ubuntu/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ubuntu/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ubuntu/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/ubuntu/Desktop/django预习/hfad_python/meiduo_mall/meiduo_mall/meiduo_mall/apps/carts/views.py", line 110, in get
+    'amount':(sku.price * cart_dict.get(sku.id).get('count')),
+TypeError: can't multiply sequence by non-int of type 'decimal.Decimal'
+ERROR 2020-05-06 08:51:10,371 basehttp 154 "GET /carts/ HTTP/1.1" 500 85384
+INFO 2020-05-06 08:52:41,383 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-05-06 08:54:24,000 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-05-06 08:58:11,076 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-05-06 08:58:14,924 basehttp 154 "GET /carts/ HTTP/1.1" 200 375
+WARNING 2020-05-06 08:58:17,167 base 102 Method Not Allowed (PUT): /carts/
+WARNING 2020-05-06 08:58:17,173 log 228 Method Not Allowed: /carts/
+WARNING 2020-05-06 08:58:17,173 basehttp 154 "PUT /carts/ HTTP/1.1" 405 0
+WARNING 2020-05-06 08:58:18,263 base 102 Method Not Allowed (PUT): /carts/
+WARNING 2020-05-06 08:58:18,263 log 228 Method Not Allowed: /carts/
+WARNING 2020-05-06 08:58:18,265 basehttp 154 "PUT /carts/ HTTP/1.1" 405 0
