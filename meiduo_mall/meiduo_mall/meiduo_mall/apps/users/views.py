@@ -1,4 +1,6 @@
 from django.contrib.auth import login, authenticate, logout
+
+from carts.utils import merge_carts_cookie_redis
 from celery_tasks.email.tasks import send_verify_email
 from django.shortcuts import render
 from django_redis import get_redis_connection
@@ -10,7 +12,6 @@ import logging
 from goods.models import SKU
 from oauth.utils import check_access_token
 from users.utils import generate_access_token
-
 logger = logging.getLogger('django')
 from meiduo_mall.utils.view import LoginRequireMixin
 from users.models import User, Address
@@ -82,7 +83,10 @@ class RegisterView(View):
         # 实现状态保持
         login(request, user)
 
-        return JsonResponse({'code':0, 'errmsg':'ok'})
+        # 增加合并购物车
+        response = JsonResponse({'code':0, 'errmsg':'ok'})
+        response = merge_carts_cookie_redis(request, response)
+        return response
 
 
 class LoginView(View):
@@ -116,6 +120,7 @@ class LoginView(View):
         # 返回cookie 用户名
         response = JsonResponse({'code':0, 'errmsg':'ok'})
         response.set_cookie('username', user.username, max_age=3600*24*14)
+        response = merge_carts_cookie_redis(request, response)
 
         # 返回json
         return response

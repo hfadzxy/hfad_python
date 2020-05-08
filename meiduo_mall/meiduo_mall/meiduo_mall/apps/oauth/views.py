@@ -14,6 +14,7 @@ import logging
 
 from django_redis import get_redis_connection
 
+from carts.utils import merge_carts_cookie_redis
 from oauth.models import QAuthQQUser
 from oauth.utils import generate_access_token_by_openid, check_access_token
 from users.models import User
@@ -76,6 +77,7 @@ class QQUserView(View):
             # 10.实现状态保持
             login(request, user)
             response = JsonResponse({'code':0, 'errmsg':'ok'})
+            response = merge_carts_cookie_redis(request, response)
             response.set_cookie('username', user.username, max_age=3600*24*14)
             return response
 
@@ -146,6 +148,7 @@ class QQUserView(View):
 
         # 创建响应对象
         response = JsonResponse({'code':0, 'errmsg':'ok'})
+        response = merge_carts_cookie_redis(request, response)
 
         # 登录用户名写入cookie
         response.set_cookie('username', user.username, max_age=3600*24*14)

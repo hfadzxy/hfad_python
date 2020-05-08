@@ -49,27 +49,27 @@ var vm = new Vue({
                 })
         },
         // 获取购物车数据
-       get_cart(){
-        let url = this.host + '/carts/simple/';
-        axios.get(url, {
-            responseType: 'json',
-            withCredentials:true,
-        })
-            .then(response => {
-                this.carts = response.data.cart_skus;
+        get_cart(){
+            let url = this.host + '/carts/simple/';
+            axios.get(url, {
+                responseType: 'json',
+                withCredentials:true,
+            })
+                .then(response => {
+                    this.carts = response.data.cart_skus;
 
-                this.cart_total_count = 0;
-                for(let i=0;i<this.carts.length;i++){
-                    if (this.carts[i].name.length>25){
-                        this.carts[i].name = this.carts[i].name.substring(0, 25) + '...';
+                    this.cart_total_count = 0;
+                    for(let i=0;i<this.carts.length;i++){
+                        if (this.carts[i].name.length>25){
+                            this.carts[i].name = this.carts[i].name.substring(0, 25) + '...';
+                        }
+                        this.cart_total_count += this.carts[i].count;
                     }
-                    this.cart_total_count += this.carts[i].count;
-                }
-            })
-            .catch(error => {
-                console.log(error);
-            })
-    },
+                })
+                .catch(error => {
+                    console.log(error);
+                })
+        },
 
     }
 });
