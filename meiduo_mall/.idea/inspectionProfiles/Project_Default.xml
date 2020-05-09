@@ -5,6 +5,7 @@
       <option name="ignoredIdentifiers">
         <list>
           <option value="object.as_view" />
+          <option value="django.utils.timezone.localtime.strftime" />
         </list>
       </option>
     </inspection_tool>

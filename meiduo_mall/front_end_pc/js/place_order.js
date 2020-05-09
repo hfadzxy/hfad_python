@@ -15,7 +15,6 @@ var vm = new Vue({
     },
     mounted: function(){
         this.username = getCookie('username')
-
         // 获取结算商品信息
         axios.get(this.host+'/orders/settlement/', {
                 responseType: 'json',
@@ -62,7 +61,7 @@ var vm = new Vue({
         },
          // 提交订单
         on_order_submit: function(){
-                var url = this.host+'/orders/commit/'
+                var url = this.host+'/orders/commit/';
                 axios.post(url, {
                         address_id: this.nowsite,
                         pay_method: Number(this.pay_method)

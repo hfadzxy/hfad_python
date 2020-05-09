@@ -56,6 +56,7 @@ INSTALLED_APPS = [
     'haystack',
     'carts',
     'orders',
+    'payment',
 ]
 
 MIDDLEWARE = [
