@@ -163,7 +163,8 @@ class SMSCodeView(View):
         p1.execute()
         # CCP().send_template_sms(mobile,[sms_code, 5], 1)
         # 需要调用delay(), 管道队列需要等待
-        ccp_send_sms_code.delay(mobile, sms_code)
+        # ccp_send_sms_code.delay(mobile, sms_code)
+        print('短信验证码',sms_code)
 
         # 返回相应结果
         return JsonResponse({'code':0, 'errmsg':'发送短信成功'})

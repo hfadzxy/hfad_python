@@ -19,6 +19,7 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path(r'meiduo_admin/', include('meiduo_admin.urls')),
     # 总路由设为空直接在子路由验证
     path(r'', include('users.urls')),
     path(r'', include('verifications.urls')),

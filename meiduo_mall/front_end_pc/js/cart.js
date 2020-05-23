@@ -8,7 +8,7 @@ var vm = new Vue({
         token: sessionStorage.token || localStorage.token,
         cart: [],
         total_selected_count: 0,
-        origin_input: 0 // 用于记录手动输入前的值
+        origin_input: 0, // 用于记录手动输入前的
     },
     computed: {
         total_count: function(){

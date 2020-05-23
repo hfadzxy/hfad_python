@@ -1,3 +1,3 @@
 #!/bin/bash
 
-mysql -h127.0.0.1 -uroot -pmysql meiduo_mall < goods_data.sql
+mysql -h127.0.0.1 -uroot -pYES meiduo_mall < goods_data.sql

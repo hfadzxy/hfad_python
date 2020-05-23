@@ -23,10 +23,18 @@ def get_user_by_account(account):
 class UsernameMobileAuthentication(ModelBackend):
     '''重写认证函数： 使其具有手机认证功能'''
     def authenticate(self, request, username=None, password=None, **kwargs):
-        # 自定义一个函数， 用来区分username保存的类型： username/mobile
-        user = get_user_by_account(username)
-        if user and user.check_password(password):
-            return user
+        if request is None:
+            try:
+                user = User.objects.get(username=username, is_staff=True)
+            except:
+                return None
+            if user.check_password(password):
+                return user
+        else:
+            # 自定义一个函数， 用来区分username保存的类型： username/mobile
+            user = get_user_by_account(username)
+            if user and user.check_password(password):
+                return user
 
 
 

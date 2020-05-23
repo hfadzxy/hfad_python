@@ -101,7 +101,8 @@ class LoginView(View):
             return JsonResponse({'code':400, 'errmsg':'缺少参数'})
 
         # 验证是否登录,返回布尔
-        user = authenticate(username=username, password=password)
+        user = authenticate(username=username, password=password, request=request)
+        print(type(user))
 
         # 判断是否为空
         if user is None:

@@ -1,3 +1,5 @@
+
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 DROP TABLE IF EXISTS `tb_content`;
 DROP TABLE IF EXISTS `tb_content_category`;
 DROP TABLE IF EXISTS `tb_sku_specification`;
@@ -154,7 +156,6 @@ UNLOCK TABLES;
 --
 -- Table structure for table `tb_goods`
 --
-
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `tb_goods` (

@@ -217,7 +217,7 @@ class OrderCommitView(View):
             transaction.savepoint_commit(save_id)
         # 删除redis中set表中对应的sku_id, hash删除
         pl = redis_conn.pipeline()
-        pl.hdel('create_%s' %request.user.id, *selected_item)
+        pl.hdel('carts_%s' %request.user.id, *selected_item)
         pl.srem('selected_%s' % request.user.id, *selected_item)
         pl.execute()
         # 返回
